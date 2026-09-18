@@ -1,0 +1,2752 @@
+[
+  {
+    "id": "A5F",
+    "code": "A5F",
+    "type": "Fault",
+    "title": "Angle error",
+    "addInfo": "",
+    "cause": "Phase-shift angle error",
+    "remedy": "Check motor phases, inductance",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "ACF1",
+    "code": "ACF1",
+    "type": "Fault",
+    "title": "AFE DC‑Caps Error",
+    "addInfo": "",
+    "cause": "Low mains voltage for too long; Output power too high if DC boost active",
+    "remedy": "Verify mains voltage value, quality, stability; Verify mains rating; Check DC boost current/power limit",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "ACF2",
+    "code": "ACF2",
+    "type": "Fault",
+    "title": "AFE Current Control Error",
+    "addInfo": "",
+    "cause": "Mains voltage interruption",
+    "remedy": "Verify mains voltage; Reduce voltage drop‑downs",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "ACF3",
+    "code": "ACF3",
+    "type": "Fault",
+    "title": "AFE Line Filter Error",
+    "addInfo": "",
+    "cause": "Mains voltage drops while in generator mode",
+    "remedy": "Verify mains voltage stability",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "AFFL",
+    "code": "AFFL",
+    "type": "Fault",
+    "title": "Fallback channel",
+    "addInfo": "",
+    "cause": "Automatic fallback active",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "ANA",
+    "code": "ANA",
+    "type": "Fault",
+    "title": "Slipping warn",
+    "addInfo": "",
+    "cause": "Slipping warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "ANF",
+    "code": "ANF",
+    "type": "Fault",
+    "title": "Load Slipping",
+    "addInfo": "",
+    "cause": "Output frequency vs speed feedback mismatch",
+    "remedy": "Confirm device rating; Verify motor gain & stability; Add braking resistor; Verify encoder wiring; Disable slip detection if torque control uses encoder; Set DBP & DBN < 10% nominal motor frequency",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "AP1",
+    "code": "AP1",
+    "type": "Fault",
+    "title": "AI1 4-20 loss",
+    "addInfo": "",
+    "cause": "AI1 4-20 mA loss",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "AP3",
+    "code": "AP3",
+    "type": "Fault",
+    "title": "AI3 4-20 loss",
+    "addInfo": "",
+    "cause": "AI3 4-20 mA loss",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "AP4",
+    "code": "AP4",
+    "type": "Fault",
+    "title": "AI4 4-20 loss",
+    "addInfo": "",
+    "cause": "AI4 4-20 mA loss",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "AP5",
+    "code": "AP5",
+    "type": "Fault",
+    "title": "AI5 4-20 loss",
+    "addInfo": "",
+    "cause": "AI5 4-20 mA loss",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "ASF",
+    "code": "ASF",
+    "type": "Fault",
+    "title": "Angle Error",
+    "addInfo": "",
+    "cause": "Motor phase disconnected; Motor inductance too high; Incorrect speed loop settings near zero speed",
+    "remedy": "Verify motor phases; Verify max current allowed; Verify speed loop parameters",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "BCA",
+    "code": "BCA",
+    "type": "Fault",
+    "title": "Brake contact",
+    "addInfo": "",
+    "cause": "Brake contact warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "BLF",
+    "code": "BLF",
+    "type": "Fault",
+    "title": "Brake Control Error",
+    "addInfo": "",
+    "cause": "Brake release current not reached; Torque setpoint not reached; Fluxing current unstable",
+    "remedy": "Verify device/motor connection; Verify motor windings; Verify IBR & IRD settings; Verify brake release frequency BIR",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "BOA",
+    "code": "BOA",
+    "type": "Fault",
+    "title": "BR thermal warn",
+    "addInfo": "",
+    "cause": "Brake resistor thermal",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "BOF",
+    "code": "BOF",
+    "type": "Fault",
+    "title": "Braking Resistor Overload",
+    "addInfo": "",
+    "cause": "Braking resistor thermal overload",
+    "remedy": "Check braking resistor sizing; Verify braking duty cycle; Inspect wiring and thermal protection",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "BRF",
+    "code": "BRF",
+    "type": "Fault",
+    "title": "Brake Feedback Error",
+    "addInfo": "",
+    "cause": "Brake feedback signal incorrect or missing",
+    "remedy": "Verify brake feedback wiring; Check brake sensor; Confirm brake logic configuration",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "BSA",
+    "code": "BSA",
+    "type": "Fault",
+    "title": "Load movement",
+    "addInfo": "",
+    "cause": "Load movement warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "BSQA",
+    "code": "BSQA",
+    "type": "Fault",
+    "title": "Backlash warn",
+    "addInfo": "",
+    "cause": "Backlash warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "BSQF",
+    "code": "BSQF",
+    "type": "Fault",
+    "title": "Backlash Error",
+    "addInfo": "",
+    "cause": "Excessive mechanical backlash detected",
+    "remedy": "Inspect gearbox/coupling; Adjust mechanical tolerances; Verify encoder alignment",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "BUF",
+    "code": "BUF",
+    "type": "Fault",
+    "title": "DB Unit Short Circuit",
+    "addInfo": "",
+    "cause": "Short circuit detected in dynamic braking unit",
+    "remedy": "Inspect DB unit wiring; Check DB transistor; Verify DB module integrity",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "BUFO",
+    "code": "BUFO",
+    "type": "Fault",
+    "title": "DB Unit Open Circuit",
+    "addInfo": "",
+    "cause": "Open circuit detected in dynamic braking unit",
+    "remedy": "Inspect DB wiring; Verify resistor continuity; Check terminals",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "BUHF",
+    "code": "BUHF",
+    "type": "Fault",
+    "title": "BUO Overheat Error",
+    "addInfo": "",
+    "cause": "BUO module overheating",
+    "remedy": "Check cooling airflow; Inspect fan; Verify ambient temperature",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "BUOC",
+    "code": "BUOC",
+    "type": "Fault",
+    "title": "BUO Overcurrent Error",
+    "addInfo": "",
+    "cause": "Overcurrent detected in BUO module",
+    "remedy": "Inspect BUO wiring; Verify load; Check module rating",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CAS1",
+    "code": "CAS1",
+    "type": "Fault",
+    "title": "Custom warn 1",
+    "addInfo": "",
+    "cause": "Custom warning 1",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "CAS2",
+    "code": "CAS2",
+    "type": "Fault",
+    "title": "Custom warn 2",
+    "addInfo": "",
+    "cause": "Custom warning 2",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "CAS3",
+    "code": "CAS3",
+    "type": "Fault",
+    "title": "Custom warn 3",
+    "addInfo": "",
+    "cause": "Custom warning 3",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "CAS4",
+    "code": "CAS4",
+    "type": "Fault",
+    "title": "Custom warn 4",
+    "addInfo": "",
+    "cause": "Custom warning 4",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "CAS5",
+    "code": "CAS5",
+    "type": "Fault",
+    "title": "Custom warn 5",
+    "addInfo": "",
+    "cause": "Custom warning 5",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "CBF",
+    "code": "CBF",
+    "type": "Fault",
+    "title": "Circuit Breaker Error",
+    "addInfo": "",
+    "cause": "Circuit breaker feedback mismatch",
+    "remedy": "Verify breaker wiring; Check auxiliary contacts; Confirm breaker state",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CFA",
+    "code": "CFA",
+    "type": "Fault",
+    "title": "Cabinet Circuit A Error",
+    "addInfo": "",
+    "cause": "Cabinet circuit A fault detected",
+    "remedy": "Inspect cabinet wiring; Verify sensors; Check thermal conditions",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CFB",
+    "code": "CFB",
+    "type": "Fault",
+    "title": "Cabinet Circuit B Error",
+    "addInfo": "",
+    "cause": "Cabinet circuit B fault detected",
+    "remedy": "Inspect cabinet wiring; Verify sensors; Check thermal conditions",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CFC",
+    "code": "CFC",
+    "type": "Fault",
+    "title": "Cabinet Circuit C Error",
+    "addInfo": "",
+    "cause": "Cabinet circuit C fault detected",
+    "remedy": "Inspect cabinet wiring; Verify sensors; Check thermal conditions",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CFF",
+    "code": "CFF",
+    "type": "Fault",
+    "title": "Incorrect Configuration",
+    "addInfo": "",
+    "cause": "Configuration mismatch or invalid parameter set",
+    "remedy": "Review configuration; Reload correct settings",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CFI",
+    "code": "CFI",
+    "type": "Fault",
+    "title": "Invalid Config",
+    "addInfo": "",
+    "cause": "Transfer failure or invalid config",
+    "remedy": "Retry transfer; Verify configuration file; Check communication",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CFI2",
+    "code": "CFI2",
+    "type": "Fault",
+    "title": "Config Transfer Error",
+    "addInfo": "",
+    "cause": "Transfer failure",
+    "remedy": "Retry transfer; Verify configuration file; Check communication",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CFI3",
+    "code": "CFI3",
+    "type": "Fault",
+    "title": "Pre‑settings Transfer Error",
+    "addInfo": "",
+    "cause": "Transfer failure",
+    "remedy": "Retry transfer; Verify configuration file; Check communication",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CFI4",
+    "code": "CFI4",
+    "type": "Fault",
+    "title": "Empty Config",
+    "addInfo": "",
+    "cause": "Empty configuration detected",
+    "remedy": "Reload configuration",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CHF",
+    "code": "CHF",
+    "type": "Fault",
+    "title": "Cabinet Overheat Error",
+    "addInfo": "",
+    "cause": "Cabinet temperature too high",
+    "remedy": "Improve ventilation; Check fans; Reduce ambient temperature",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CNF",
+    "code": "CNF",
+    "type": "Fault",
+    "title": "Fieldbus Communication Interrupt",
+    "addInfo": "",
+    "cause": "Fieldbus communication lost",
+    "remedy": "Check network wiring; Verify master device; Inspect connectors",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "COF",
+    "code": "COF",
+    "type": "Fault",
+    "title": "CANopen Communication Interrupt",
+    "addInfo": "",
+    "cause": "CANopen communication lost",
+    "remedy": "Inspect CAN wiring; Verify termination; Check baud rate",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "COPF",
+    "code": "COPF",
+    "type": "Fault",
+    "title": "Cooling Pump Error",
+    "addInfo": "",
+    "cause": "Pump failure or diagnostic error",
+    "remedy": "Inspect pump; Verify diagnostics; Check wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CRF1",
+    "code": "CRF1",
+    "type": "Fault",
+    "title": "Precharge Capacitor Error",
+    "addInfo": "",
+    "cause": "Precharge failure",
+    "remedy": "Inspect precharge circuit; Verify contactor; Check wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CRF3",
+    "code": "CRF3",
+    "type": "Fault",
+    "title": "AFE Contactor Feedback Error",
+    "addInfo": "",
+    "cause": "Contactor feedback mismatch",
+    "remedy": "Inspect contactor wiring; Verify feedback signal",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CSF",
+    "code": "CSF",
+    "type": "Fault",
+    "title": "Channel Switch Error",
+    "addInfo": "",
+    "cause": "Channel switching fault",
+    "remedy": "Verify channel configuration; Inspect wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "CTA",
+    "code": "CTA",
+    "type": "Fault",
+    "title": "Current high",
+    "addInfo": "",
+    "cause": "Motor current high",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "CTAL",
+    "code": "CTAL",
+    "type": "Fault",
+    "title": "Current low",
+    "addInfo": "",
+    "cause": "Motor current low",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "DCRE",
+    "code": "DCRE",
+    "type": "Fault",
+    "title": "DC Bus Ripple Error",
+    "addInfo": "",
+    "cause": "Excessive DC bus ripple",
+    "remedy": "Inspect DC bus capacitors; Verify mains quality; Check load",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "DCRW",
+    "code": "DCRW",
+    "type": "Fault",
+    "title": "DC bus ripple",
+    "addInfo": "",
+    "cause": "DC bus ripple warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "DLDA",
+    "code": "DLDA",
+    "type": "Fault",
+    "title": "Dynamic load warn",
+    "addInfo": "",
+    "cause": "Dynamic load warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "DLF",
+    "code": "DLF",
+    "type": "Fault",
+    "title": "Dynamic Load Error",
+    "addInfo": "",
+    "cause": "Load variation exceeds threshold",
+    "remedy": "Inspect mechanical load; Verify torque parameters",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "ECF",
+    "code": "ECF",
+    "type": "Fault",
+    "title": "Encoder Coupling Error",
+    "addInfo": "",
+    "cause": "Encoder coupling mismatch",
+    "remedy": "Inspect encoder mounting; Verify alignment",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "EEF1",
+    "code": "EEF1",
+    "type": "Fault",
+    "title": "Control Memory Error",
+    "addInfo": "",
+    "cause": "Control memory corruption",
+    "remedy": "Reload firmware; Verify memory integrity",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "EEF2",
+    "code": "EEF2",
+    "type": "Fault",
+    "title": "Power Memory Error",
+    "addInfo": "",
+    "cause": "Power memory corruption",
+    "remedy": "Reload firmware; Verify memory integrity",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "EFA",
+    "code": "EFA",
+    "type": "Fault",
+    "title": "External error warn",
+    "addInfo": "",
+    "cause": "External error",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "ENF",
+    "code": "ENF",
+    "type": "Fault",
+    "title": "Encoder Error",
+    "addInfo": "",
+    "cause": "Encoder signal fault",
+    "remedy": "Inspect encoder wiring; Verify signal quality",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "EPF1",
+    "code": "EPF1",
+    "type": "Fault",
+    "title": "External Error",
+    "addInfo": "",
+    "cause": "External device fault",
+    "remedy": "Inspect external device; Verify wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "EPF2",
+    "code": "EPF2",
+    "type": "Fault",
+    "title": "Fieldbus Error",
+    "addInfo": "",
+    "cause": "Fieldbus protocol fault",
+    "remedy": "Check fieldbus configuration; Inspect wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "ETHF",
+    "code": "ETHF",
+    "type": "Fault",
+    "title": "Embedded Ethernet Communication Interrupt",
+    "addInfo": "",
+    "cause": "Ethernet link lost",
+    "remedy": "Inspect Ethernet cable; Verify switch; Check IP configuration",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "F2A",
+    "code": "F2A",
+    "type": "Fault",
+    "title": "Motor freq high 2",
+    "addInfo": "",
+    "cause": "Motor freq high threshold 2",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "F2AL",
+    "code": "F2AL",
+    "type": "Fault",
+    "title": "Motor freq low 2",
+    "addInfo": "",
+    "cause": "Motor freq low threshold 2",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "FBE",
+    "code": "FBE",
+    "type": "Fault",
+    "title": "Function block",
+    "addInfo": "",
+    "cause": "Function block error",
+    "remedy": "Check FB error",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "FBES",
+    "code": "FBES",
+    "type": "Fault",
+    "title": "FB stop error",
+    "addInfo": "",
+    "cause": "FB stopped while running",
+    "remedy": "Check FB motor stop type",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "FCF1",
+    "code": "FCF1",
+    "type": "Fault",
+    "title": "Output Contact Closed Error",
+    "addInfo": "",
+    "cause": "Output contact closed unexpectedly",
+    "remedy": "Inspect contactor wiring; Verify logic",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "FCF2",
+    "code": "FCF2",
+    "type": "Fault",
+    "title": "Output Contact Opened Error",
+    "addInfo": "",
+    "cause": "Output contact opened unexpectedly",
+    "remedy": "Inspect contactor wiring; Verify logic",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "FCTA",
+    "code": "FCTA",
+    "type": "Fault",
+    "title": "Fan counter warn",
+    "addInfo": "",
+    "cause": "Fan counter speed",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "FDR1",
+    "code": "FDR1",
+    "type": "Fault",
+    "title": "FDR 1 Error",
+    "addInfo": "",
+    "cause": "FDR module fault",
+    "remedy": "Inspect module; Verify wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "FDR2",
+    "code": "FDR2",
+    "type": "Fault",
+    "title": "FDR 2 Error",
+    "addInfo": "",
+    "cause": "FDR module fault",
+    "remedy": "Inspect module; Verify wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "FFDA",
+    "code": "FFDA",
+    "type": "Fault",
+    "title": "Fan feedback warn",
+    "addInfo": "",
+    "cause": "Fan feedback",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "FFDF",
+    "code": "FFDF",
+    "type": "Fault",
+    "title": "Fan Feedback Error",
+    "addInfo": "",
+    "cause": "Fan feedback signal missing",
+    "remedy": "Inspect fan; Verify feedback wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "FLA",
+    "code": "FLA",
+    "type": "Fault",
+    "title": "High speed reached",
+    "addInfo": "",
+    "cause": "High speed reached",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "FQLA",
+    "code": "FQLA",
+    "type": "Fault",
+    "title": "Pulse warn",
+    "addInfo": "",
+    "cause": "Pulse threshold reached",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "FRF",
+    "code": "FRF",
+    "type": "Fault",
+    "title": "Fallback frequency",
+    "addInfo": "",
+    "cause": "Fallback frequency active",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "FTA",
+    "code": "FTA",
+    "type": "Fault",
+    "title": "Motor freq high",
+    "addInfo": "",
+    "cause": "Motor freq high threshold",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "FTAL",
+    "code": "FTAL",
+    "type": "Fault",
+    "title": "Motor freq low",
+    "addInfo": "",
+    "cause": "Motor freq low threshold",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "FWER",
+    "code": "FWER",
+    "type": "Fault",
+    "title": "Firmware Update Error",
+    "addInfo": "",
+    "cause": "Firmware update failed",
+    "remedy": "Retry update; Verify firmware file",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "HCF",
+    "code": "HCF",
+    "type": "Fault",
+    "title": "Boards Compatibility Error",
+    "addInfo": "",
+    "cause": "Incompatible boards detected",
+    "remedy": "Verify hardware compatibility",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "HDF",
+    "code": "HDF",
+    "type": "Fault",
+    "title": "IGBT desaturation",
+    "addInfo": "",
+    "cause": "Short circuit",
+    "remedy": "Check motor cable",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "IDLF",
+    "code": "IDLF",
+    "type": "Fault",
+    "title": "Energy Saving Exit Error",
+    "addInfo": "",
+    "cause": "Energy saving mode exit fault",
+    "remedy": "Inspect energy‑saving configuration",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "IFA",
+    "code": "IFA",
+    "type": "Fault",
+    "title": "Monitoring Circuit A Error",
+    "addInfo": "",
+    "cause": "Monitoring circuit A fault",
+    "remedy": "Inspect circuit wiring; Verify sensors",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "IFB",
+    "code": "IFB",
+    "type": "Fault",
+    "title": "Monitoring Circuit B Error",
+    "addInfo": "",
+    "cause": "Monitoring circuit B fault",
+    "remedy": "Inspect circuit wiring; Verify sensors",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "IFC",
+    "code": "IFC",
+    "type": "Fault",
+    "title": "Monitoring Circuit C Error",
+    "addInfo": "",
+    "cause": "Monitoring circuit C fault",
+    "remedy": "Inspect circuit wiring; Verify sensors",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "IFD",
+    "code": "IFD",
+    "type": "Fault",
+    "title": "Monitoring Circuit D Error",
+    "addInfo": "",
+    "cause": "Monitoring circuit D fault",
+    "remedy": "Inspect circuit wiring; Verify sensors",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "IHF",
+    "code": "IHF",
+    "type": "Fault",
+    "title": "Input Overheating",
+    "addInfo": "",
+    "cause": "Input overheating detected",
+    "remedy": "Improve cooling; Inspect input module",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "ILF",
+    "code": "ILF",
+    "type": "Fault",
+    "title": "Internal Link Error",
+    "addInfo": "",
+    "cause": "Internal communication link fault",
+    "remedy": "Inspect internal connections",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "INF0–INF32",
+    "code": "INF0–INF32",
+    "type": "Fault",
+    "title": "Internal Errors",
+    "addInfo": "",
+    "cause": "Internal device fault",
+    "remedy": "Contact manufacturer; Verify firmware; Inspect hardware",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "INF1",
+    "code": "INF1",
+    "type": "Fault",
+    "title": "Internal error 1",
+    "addInfo": "",
+    "cause": "Power board mismatch",
+    "remedy": "Check board reference",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "INF2",
+    "code": "INF2",
+    "type": "Fault",
+    "title": "Internal error 2",
+    "addInfo": "",
+    "cause": "Power board incompatible",
+    "remedy": "Check compatibility",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "INF3",
+    "code": "INF3",
+    "type": "Fault",
+    "title": "Internal error 3",
+    "addInfo": "",
+    "cause": "Internal comm error",
+    "remedy": "Check internal connections",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "INF4",
+    "code": "INF4",
+    "type": "Fault",
+    "title": "Internal error 4",
+    "addInfo": "",
+    "cause": "Internal data inconsistent",
+    "remedy": "Recalibrate",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "INF6",
+    "code": "INF6",
+    "type": "Fault",
+    "title": "Internal error 6",
+    "addInfo": "",
+    "cause": "Option not recognized",
+    "remedy": "Check option",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "INF9",
+    "code": "INF9",
+    "type": "Fault",
+    "title": "Internal error 9",
+    "addInfo": "",
+    "cause": "Current measurement error",
+    "remedy": "Replace sensors",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "INFA",
+    "code": "INFA",
+    "type": "Fault",
+    "title": "Internal error 10",
+    "addInfo": "",
+    "cause": "Input stage error",
+    "remedy": "Contact support",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "INFB",
+    "code": "INFB",
+    "type": "Fault",
+    "title": "Internal error 11",
+    "addInfo": "",
+    "cause": "Temp sensor error",
+    "remedy": "Replace sensor",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "INFE",
+    "code": "INFE",
+    "type": "Fault",
+    "title": "Internal error 14",
+    "addInfo": "",
+    "cause": "CPU error",
+    "remedy": "Reset",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "INFM",
+    "code": "INFM",
+    "type": "Fault",
+    "title": "Internal error 22",
+    "addInfo": "",
+    "cause": "Embedded Ethernet",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "IWA",
+    "code": "IWA",
+    "type": "Fault",
+    "title": "Monitor circ A",
+    "addInfo": "",
+    "cause": "Monitoring circuit A",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "IWB",
+    "code": "IWB",
+    "type": "Fault",
+    "title": "Monitor circ B",
+    "addInfo": "",
+    "cause": "Monitoring circuit B",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "IWC",
+    "code": "IWC",
+    "type": "Fault",
+    "title": "Monitor circ C",
+    "addInfo": "",
+    "cause": "Monitoring circuit C",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "IWD",
+    "code": "IWD",
+    "type": "Fault",
+    "title": "Monitor circ D",
+    "addInfo": "",
+    "cause": "Monitoring circuit D",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "LCF",
+    "code": "LCF",
+    "type": "Fault",
+    "title": "Input Contactor Error",
+    "addInfo": "",
+    "cause": "Input contactor feedback mismatch",
+    "remedy": "Inspect contactor wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "LFF1",
+    "code": "LFF1",
+    "type": "Fault",
+    "title": "AI1 4–20 mA Loss",
+    "addInfo": "",
+    "cause": "Analog input signal lost",
+    "remedy": "Inspect analog wiring; Verify sensor",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "LFF3",
+    "code": "LFF3",
+    "type": "Fault",
+    "title": "AI3 4–20 mA Loss",
+    "addInfo": "",
+    "cause": "Analog input signal lost",
+    "remedy": "Inspect analog wiring; Verify sensor",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "LFF4",
+    "code": "LFF4",
+    "type": "Fault",
+    "title": "AI4 4–20 mA Loss",
+    "addInfo": "",
+    "cause": "Analog input signal lost",
+    "remedy": "Inspect analog wiring; Verify sensor",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "LFF5",
+    "code": "LFF5",
+    "type": "Fault",
+    "title": "AI5 4–20 mA Loss",
+    "addInfo": "",
+    "cause": "Analog input signal lost",
+    "remedy": "Inspect analog wiring; Verify sensor",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "LKON",
+    "code": "LKON",
+    "type": "Fault",
+    "title": "ON lock warn",
+    "addInfo": "",
+    "cause": "External device not ready",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "LSA",
+    "code": "LSA",
+    "type": "Fault",
+    "title": "Limit switch reached",
+    "addInfo": "",
+    "cause": "Limit switch reached",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "MDCF",
+    "code": "MDCF",
+    "type": "Fault",
+    "title": "Load Movement Error",
+    "addInfo": "",
+    "cause": "Unexpected load movement",
+    "remedy": "Inspect mechanical system",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "MDF",
+    "code": "MDF",
+    "type": "Fault",
+    "title": "AFE Bus Reference Error",
+    "addInfo": "",
+    "cause": "AFE bus reference fault",
+    "remedy": "Inspect AFE wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "MDLF",
+    "code": "MDLF",
+    "type": "Fault",
+    "title": "MultiDrive Link Error",
+    "addInfo": "",
+    "cause": "MultiDrive link communication fault",
+    "remedy": "Inspect link wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "MFF",
+    "code": "MFF",
+    "type": "Fault",
+    "title": "Mains Frequency Out of Range",
+    "addInfo": "",
+    "cause": "Mains frequency outside limits",
+    "remedy": "Verify mains supply",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "MOF",
+    "code": "MOF",
+    "type": "Fault",
+    "title": "Module Overheat",
+    "addInfo": "",
+    "cause": "Module temperature too high",
+    "remedy": "Improve cooling",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "MSDA",
+    "code": "MSDA",
+    "type": "Fault",
+    "title": "Master/slave warn",
+    "addInfo": "",
+    "cause": "Master/slave device warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "MSDF",
+    "code": "MSDF",
+    "type": "Fault",
+    "title": "Master/Slave Device Error",
+    "addInfo": "",
+    "cause": "Master/slave communication fault",
+    "remedy": "Inspect communication wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "NOA",
+    "code": "NOA",
+    "type": "Fault",
+    "title": "No warning stored",
+    "addInfo": "",
+    "cause": "No warning stored",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "OBF",
+    "code": "OBF",
+    "type": "Fault",
+    "title": "DC Bus Overvoltage",
+    "addInfo": "",
+    "cause": "DC bus overvoltage",
+    "remedy": "Verify mains; Inspect DC bus",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "OBF2",
+    "code": "OBF2",
+    "type": "Fault",
+    "title": "AFE Bus Unbalancing",
+    "addInfo": "",
+    "cause": "DC bus unbalancing",
+    "remedy": "Verify mains; Inspect DC bus",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "OCF",
+    "code": "OCF",
+    "type": "Fault",
+    "title": "Overcurrent",
+    "addInfo": "",
+    "cause": "Excessive current",
+    "remedy": "Inspect load; Verify motor parameters",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "OHF",
+    "code": "OHF",
+    "type": "Fault",
+    "title": "Drive overheating",
+    "addInfo": "",
+    "cause": "Drive temp too high",
+    "remedy": "Check ventilation",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "OLA",
+    "code": "OLA",
+    "type": "Fault",
+    "title": "Process overload",
+    "addInfo": "",
+    "cause": "Process overload",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "OLC",
+    "code": "OLC",
+    "type": "Fault",
+    "title": "Process Overload",
+    "addInfo": "",
+    "cause": "Process load too high",
+    "remedy": "Inspect process; Verify torque limits",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "OLF",
+    "code": "OLF",
+    "type": "Fault",
+    "title": "Motor Overload",
+    "addInfo": "",
+    "cause": "Motor overloaded",
+    "remedy": "Inspect motor load; Verify settings",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "OPF1",
+    "code": "OPF1",
+    "type": "Fault",
+    "title": "Single Output Phase Loss",
+    "addInfo": "",
+    "cause": "Output phase missing",
+    "remedy": "Inspect motor wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "OPF2",
+    "code": "OPF2",
+    "type": "Fault",
+    "title": "Output Phase Loss",
+    "addInfo": "",
+    "cause": "Output phase missing",
+    "remedy": "Inspect motor wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "OSF",
+    "code": "OSF",
+    "type": "Fault",
+    "title": "Supply Mains Overvoltage",
+    "addInfo": "",
+    "cause": "Mains overvoltage",
+    "remedy": "Verify supply",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "P24C",
+    "code": "P24C",
+    "type": "Fault",
+    "title": "Cabinet I/O 24V Error",
+    "addInfo": "",
+    "cause": "24V supply missing",
+    "remedy": "Inspect 24V supply",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "PCPF",
+    "code": "PCPF",
+    "type": "Fault",
+    "title": "PumpCycle Start Error",
+    "addInfo": "",
+    "cause": "Pump cycle start fault",
+    "remedy": "Inspect pump wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "PEE",
+    "code": "PEE",
+    "type": "Fault",
+    "title": "PID error warn",
+    "addInfo": "",
+    "cause": "PID error warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "PEFL",
+    "code": "PEFL",
+    "type": "Fault",
+    "title": "Process error",
+    "addInfo": "",
+    "cause": "Process error",
+    "remedy": "Check process",
+    "brand": "Schneider",
+    "families": [
+      "ATV320"
+    ]
+  },
+  {
+    "id": "PFA",
+    "code": "PFA",
+    "type": "Fault",
+    "title": "PID feedback warn",
+    "addInfo": "",
+    "cause": "PID feedback warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "PFAH",
+    "code": "PFAH",
+    "type": "Fault",
+    "title": "PID high feedback",
+    "addInfo": "",
+    "cause": "High threshold reached",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "PFAL",
+    "code": "PFAL",
+    "type": "Fault",
+    "title": "PID low feedback",
+    "addInfo": "",
+    "cause": "Low threshold reached",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "PFMF",
+    "code": "PFMF",
+    "type": "Fault",
+    "title": "PID Feedback Error",
+    "addInfo": "",
+    "cause": "PID feedback invalid",
+    "remedy": "Inspect sensor; Verify PID settings",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "PGLF",
+    "code": "PGLF",
+    "type": "Fault",
+    "title": "Program Load Error",
+    "addInfo": "",
+    "cause": "Program load failed",
+    "remedy": "Reload program",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "PGRF",
+    "code": "PGRF",
+    "type": "Fault",
+    "title": "Program Run Error",
+    "addInfo": "",
+    "cause": "Program execution fault",
+    "remedy": "Inspect program logic",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "PHF",
+    "code": "PHF",
+    "type": "Fault",
+    "title": "Input Phase Loss",
+    "addInfo": "",
+    "cause": "Mains phase missing",
+    "remedy": "Inspect mains wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "POWD",
+    "code": "POWD",
+    "type": "Fault",
+    "title": "Power consumption",
+    "addInfo": "",
+    "cause": "Power consumption warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "PTHA",
+    "code": "PTHA",
+    "type": "Fault",
+    "title": "Power high",
+    "addInfo": "",
+    "cause": "Power high threshold",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "PTHL",
+    "code": "PTHL",
+    "type": "Fault",
+    "title": "Power low",
+    "addInfo": "",
+    "cause": "Power low threshold",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "RFTA",
+    "code": "RFTA",
+    "type": "Fault",
+    "title": "Power backup",
+    "addInfo": "",
+    "cause": "Power backup mode",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "RLS",
+    "code": "RLS",
+    "type": "Fault",
+    "title": "Speed maintained",
+    "addInfo": "",
+    "cause": "Speed maintained",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "RSDA",
+    "code": "RSDA",
+    "type": "Fault",
+    "title": "Slack rope warn",
+    "addInfo": "",
+    "cause": "Slack rope warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "RTA",
+    "code": "RTA",
+    "type": "Fault",
+    "title": "Torque control warn",
+    "addInfo": "",
+    "cause": "Torque control warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "RTAH",
+    "code": "RTAH",
+    "type": "Fault",
+    "title": "Ref freq high",
+    "addInfo": "",
+    "cause": "Reference freq high",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "RTAL",
+    "code": "RTAL",
+    "type": "Fault",
+    "title": "Ref freq low",
+    "addInfo": "",
+    "cause": "Reference freq low",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "SAFF",
+    "code": "SAFF",
+    "type": "Fault",
+    "title": "Safety Function Error",
+    "addInfo": "",
+    "cause": "Safety function fault",
+    "remedy": "Inspect safety wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SAVF",
+    "code": "SAVF",
+    "type": "Fault",
+    "title": "Safety Violation",
+    "addInfo": "",
+    "cause": "Safety violation detected",
+    "remedy": "Inspect safety system",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SCF1",
+    "code": "SCF1",
+    "type": "Fault",
+    "title": "Motor Short Circuit",
+    "addInfo": "",
+    "cause": "Motor short circuit",
+    "remedy": "Inspect wiring; Verify motor; Check IGBT",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SCF3",
+    "code": "SCF3",
+    "type": "Fault",
+    "title": "Ground Short Circuit",
+    "addInfo": "",
+    "cause": "Ground short circuit",
+    "remedy": "Inspect wiring; Verify motor; Check IGBT",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SCF4",
+    "code": "SCF4",
+    "type": "Fault",
+    "title": "IGBT Short Circuit",
+    "addInfo": "",
+    "cause": "IGBT short circuit",
+    "remedy": "Inspect wiring; Verify motor; Check IGBT",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SCF5",
+    "code": "SCF5",
+    "type": "Fault",
+    "title": "Motor Short Circuit",
+    "addInfo": "",
+    "cause": "Motor short circuit",
+    "remedy": "Inspect wiring; Verify motor; Check IGBT",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SCF6",
+    "code": "SCF6",
+    "type": "Fault",
+    "title": "AFE Short Circuit Error",
+    "addInfo": "",
+    "cause": "AFE short circuit",
+    "remedy": "Inspect wiring; Verify motor; Check IGBT",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SCFF",
+    "code": "SCFF",
+    "type": "Fault",
+    "title": "Safety Config Error",
+    "addInfo": "",
+    "cause": "Safety configuration invalid",
+    "remedy": "Correct safety configuration",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SIOF",
+    "code": "SIOF",
+    "type": "Fault",
+    "title": "Safety IO Error",
+    "addInfo": "",
+    "cause": "Safety IO fault",
+    "remedy": "Inspect IO wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SLF1",
+    "code": "SLF1",
+    "type": "Fault",
+    "title": "Modbus comm",
+    "addInfo": "",
+    "cause": "Modbus comm interruption",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV340",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SLF2",
+    "code": "SLF2",
+    "type": "Fault",
+    "title": "PC Communication Interrupt",
+    "addInfo": "",
+    "cause": "PC communication lost",
+    "remedy": "Inspect communication wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SLF3",
+    "code": "SLF3",
+    "type": "Fault",
+    "title": "HMI Communication Interrupt",
+    "addInfo": "",
+    "cause": "HMI communication lost",
+    "remedy": "Inspect communication wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SOF",
+    "code": "SOF",
+    "type": "Fault",
+    "title": "Motor Overspeed",
+    "addInfo": "",
+    "cause": "Motor speed exceeded limit",
+    "remedy": "Inspect speed loop",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SPF",
+    "code": "SPF",
+    "type": "Fault",
+    "title": "Encoder Feedback Loss",
+    "addInfo": "",
+    "cause": "Encoder feedback missing",
+    "remedy": "Inspect encoder wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SPFC",
+    "code": "SPFC",
+    "type": "Fault",
+    "title": "Security Files Corrupt",
+    "addInfo": "",
+    "cause": "Security file corruption",
+    "remedy": "Reload security files",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SRA",
+    "code": "SRA",
+    "type": "Fault",
+    "title": "Ref freq warn",
+    "addInfo": "",
+    "cause": "Frequency reference reached",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "SRF",
+    "code": "SRF",
+    "type": "Fault",
+    "title": "Torque Timeout",
+    "addInfo": "",
+    "cause": "Torque not reached in time",
+    "remedy": "Inspect torque parameters",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "SSA",
+    "code": "SSA",
+    "type": "Fault",
+    "title": "Torque limit",
+    "addInfo": "",
+    "cause": "Torque limit reached",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "SSF",
+    "code": "SSF",
+    "type": "Fault",
+    "title": "Torque Limit Error",
+    "addInfo": "",
+    "cause": "Torque limit exceeded",
+    "remedy": "Verify torque settings",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "STF",
+    "code": "STF",
+    "type": "Fault",
+    "title": "Motor Stall Error",
+    "addInfo": "",
+    "cause": "Motor stalled",
+    "remedy": "Inspect load; Verify motor parameters",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "STT",
+    "code": "STT",
+    "type": "Fault",
+    "title": "Type of stop",
+    "addInfo": "",
+    "cause": "Stop without error",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "T1CF",
+    "code": "T1CF",
+    "type": "Fault",
+    "title": "AI1 Thermal Sensor Error",
+    "addInfo": "",
+    "cause": "Thermal sensor fault",
+    "remedy": "Inspect sensor wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "T3CF",
+    "code": "T3CF",
+    "type": "Fault",
+    "title": "AI3 Thermal Sensor Error",
+    "addInfo": "",
+    "cause": "Thermal sensor fault",
+    "remedy": "Inspect sensor wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "T4CF",
+    "code": "T4CF",
+    "type": "Fault",
+    "title": "AI4 Thermal Sensor Error",
+    "addInfo": "",
+    "cause": "Thermal sensor fault",
+    "remedy": "Inspect sensor wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "T5CF",
+    "code": "T5CF",
+    "type": "Fault",
+    "title": "AI5 Thermal Sensor Error",
+    "addInfo": "",
+    "cause": "Thermal sensor fault",
+    "remedy": "Inspect sensor wiring",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TAD",
+    "code": "TAD",
+    "type": "Fault",
+    "title": "Drive thermal",
+    "addInfo": "",
+    "cause": "Drive thermal threshold",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TECF",
+    "code": "TECF",
+    "type": "Fault",
+    "title": "Encoder Thermal Error",
+    "addInfo": "",
+    "cause": "Encoder overheating",
+    "remedy": "Improve cooling",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TFA",
+    "code": "TFA",
+    "type": "Fault",
+    "title": "Motor Winding A Error",
+    "addInfo": "",
+    "cause": "Motor winding fault",
+    "remedy": "Inspect motor windings",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TFB",
+    "code": "TFB",
+    "type": "Fault",
+    "title": "Motor Winding B Error",
+    "addInfo": "",
+    "cause": "Motor winding fault",
+    "remedy": "Inspect motor windings",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TFC",
+    "code": "TFC",
+    "type": "Fault",
+    "title": "Motor Bearing A Error",
+    "addInfo": "",
+    "cause": "Motor bearing fault",
+    "remedy": "Inspect bearings",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TFD",
+    "code": "TFD",
+    "type": "Fault",
+    "title": "Motor Bearing B Error",
+    "addInfo": "",
+    "cause": "Motor bearing fault",
+    "remedy": "Inspect bearings",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TH1F",
+    "code": "TH1F",
+    "type": "Fault",
+    "title": "AI1 Thermal Level Error",
+    "addInfo": "",
+    "cause": "Thermal level exceeded",
+    "remedy": "Improve cooling",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TH3F",
+    "code": "TH3F",
+    "type": "Fault",
+    "title": "AI3 Thermal Level Error",
+    "addInfo": "",
+    "cause": "Thermal level exceeded",
+    "remedy": "Improve cooling",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TH5F",
+    "code": "TH5F",
+    "type": "Fault",
+    "title": "AI5 Thermal Level Error",
+    "addInfo": "",
+    "cause": "Thermal level exceeded",
+    "remedy": "Improve cooling",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "THA",
+    "code": "THA",
+    "type": "Fault",
+    "title": "Device thermal warn",
+    "addInfo": "",
+    "cause": "Drive overheating",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "THEF",
+    "code": "THEF",
+    "type": "Fault",
+    "title": "Encoder Thermal Level Error",
+    "addInfo": "",
+    "cause": "Encoder thermal threshold exceeded",
+    "remedy": "Improve cooling",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TJA",
+    "code": "TJA",
+    "type": "Fault",
+    "title": "IGBT thermal warn",
+    "addInfo": "",
+    "cause": "IGBT thermal state",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TJF",
+    "code": "TJF",
+    "type": "Fault",
+    "title": "Device Overheat",
+    "addInfo": "",
+    "cause": "Device overheating",
+    "remedy": "Improve cooling",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TJF2",
+    "code": "TJF2",
+    "type": "Fault",
+    "title": "AFE IGBT Overheat",
+    "addInfo": "",
+    "cause": "AFE IGBT overheating",
+    "remedy": "Improve cooling",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TLOF",
+    "code": "TLOF",
+    "type": "Fault",
+    "title": "Drive Overload",
+    "addInfo": "",
+    "cause": "Drive overloaded",
+    "remedy": "Inspect load; Verify drive rating",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TLOW",
+    "code": "TLOW",
+    "type": "Fault",
+    "title": "Current reduction",
+    "addInfo": "",
+    "cause": "Current reduction warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TNF",
+    "code": "TNF",
+    "type": "Fault",
+    "title": "Autotuning Error",
+    "addInfo": "",
+    "cause": "Autotuning failed",
+    "remedy": "Verify motor parameters; Retry autotuning",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "TP1A",
+    "code": "TP1A",
+    "type": "Fault",
+    "title": "AI1 thermal",
+    "addInfo": "",
+    "cause": "AI1 thermal warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TP3A",
+    "code": "TP3A",
+    "type": "Fault",
+    "title": "AI3 thermal warn",
+    "addInfo": "",
+    "cause": "AI3 thermal warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TP4A",
+    "code": "TP4A",
+    "type": "Fault",
+    "title": "AI4 thermal warn",
+    "addInfo": "",
+    "cause": "AI4 thermal warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TP5A",
+    "code": "TP5A",
+    "type": "Fault",
+    "title": "AI5 thermal warn",
+    "addInfo": "",
+    "cause": "AI5 thermal warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TPEA",
+    "code": "TPEA",
+    "type": "Fault",
+    "title": "Encoder thermal",
+    "addInfo": "",
+    "cause": "Encoder thermal warning",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TS1A",
+    "code": "TS1A",
+    "type": "Fault",
+    "title": "Temp sensor AI1",
+    "addInfo": "",
+    "cause": "Temp sensor AI1 open",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TS2",
+    "code": "TS2",
+    "type": "Fault",
+    "title": "Motor 2 thermal",
+    "addInfo": "",
+    "cause": "Motor 2 thermal",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TS3",
+    "code": "TS3",
+    "type": "Fault",
+    "title": "Motor 3 thermal",
+    "addInfo": "",
+    "cause": "Motor 3 thermal",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TS3A",
+    "code": "TS3A",
+    "type": "Fault",
+    "title": "Temp sensor AI3",
+    "addInfo": "",
+    "cause": "Temp sensor AI3 open",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TS4",
+    "code": "TS4",
+    "type": "Fault",
+    "title": "Motor 4 thermal",
+    "addInfo": "",
+    "cause": "Motor 4 thermal",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TS4A",
+    "code": "TS4A",
+    "type": "Fault",
+    "title": "Temp sensor AI4",
+    "addInfo": "",
+    "cause": "Temp sensor AI4 open",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TS5A",
+    "code": "TS5A",
+    "type": "Fault",
+    "title": "Temp sensor AI5",
+    "addInfo": "",
+    "cause": "Temp sensor AI5 open",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TSA",
+    "code": "TSA",
+    "type": "Fault",
+    "title": "Motor thermal",
+    "addInfo": "",
+    "cause": "Motor thermal threshold",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TTHA",
+    "code": "TTHA",
+    "type": "Fault",
+    "title": "High torque",
+    "addInfo": "",
+    "cause": "High torque threshold",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "TTLA",
+    "code": "TTLA",
+    "type": "Fault",
+    "title": "Low torque",
+    "addInfo": "",
+    "cause": "Low torque threshold",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "ULA",
+    "code": "ULA",
+    "type": "Fault",
+    "title": "Process underload",
+    "addInfo": "",
+    "cause": "Process underload",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "ULF",
+    "code": "ULF",
+    "type": "Fault",
+    "title": "Process Underload",
+    "addInfo": "",
+    "cause": "Process load too low",
+    "remedy": "Inspect process; Verify load parameters",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  },
+  {
+    "id": "UPA",
+    "code": "UPA",
+    "type": "Fault",
+    "title": "Preventive undervoltage",
+    "addInfo": "",
+    "cause": "Controlled stop threshold reached",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "URF",
+    "code": "URF",
+    "type": "Fault",
+    "title": "AFE Mains Undervoltage",
+    "addInfo": "",
+    "cause": "AFE mains undervoltage",
+    "remedy": "Verify mains supply",
+    "brand": "Schneider",
+    "families": [
+      "ATV930"
+    ]
+  },
+  {
+    "id": "USA",
+    "code": "USA",
+    "type": "Fault",
+    "title": "Undervoltage warn",
+    "addInfo": "",
+    "cause": "Undervoltage",
+    "remedy": "See device manual for corrective action",
+    "brand": "Schneider",
+    "families": [
+      "ATV340"
+    ]
+  },
+  {
+    "id": "USF",
+    "code": "USF",
+    "type": "Fault",
+    "title": "Supply Mains Undervoltage",
+    "addInfo": "",
+    "cause": "Mains undervoltage",
+    "remedy": "Verify supply",
+    "brand": "Schneider",
+    "families": [
+      "ATV320",
+      "ATV930"
+    ]
+  }
+]

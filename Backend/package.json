@@ -1,0 +1,9 @@
+{
+  "name": "unified-drive-assistant-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-provider AI proxy for Unified Drive Assistant — no Firebase, deployed on Vercel.",
+  "engines": {
+    "node": ">=18"
+  }
+}

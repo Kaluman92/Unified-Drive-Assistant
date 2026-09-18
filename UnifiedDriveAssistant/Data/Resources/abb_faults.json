@@ -1,0 +1,976 @@
+[
+  {
+    "id": "64FF",
+    "code": "64FF",
+    "type": "Fault",
+    "title": "Fault reset",
+    "addInfo": "",
+    "cause": "Fault has been reset",
+    "remedy": "Informative",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A2A1",
+    "code": "A2A1",
+    "type": "Fault",
+    "title": "Current calibration",
+    "addInfo": "",
+    "cause": "Current offset/gain calibration will occur at next start",
+    "remedy": "Informative warning (ID run requested)",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A2B1",
+    "code": "A2B1",
+    "type": "Fault",
+    "title": "Overcurrent",
+    "addInfo": "",
+    "cause": "Output current exceeded limit",
+    "remedy": "Check load, ramps, scaling, wiring, insulation",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A2B3",
+    "code": "A2B3",
+    "type": "Fault",
+    "title": "Earth leakage",
+    "addInfo": "",
+    "cause": "Load unbalance typically due to earth fault in motor/cable",
+    "remedy": "Check for earth fault; measure insulation resistance; remove PF capacitors/surge absorbers; try scalar mode; contact ABB if persists",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A2B4",
+    "code": "A2B4",
+    "type": "Fault",
+    "title": "Short circuit",
+    "addInfo": "",
+    "cause": "Short‑circuit in motor cable or motor",
+    "remedy": "Check motor/cable for wiring errors; remove PF capacitors/surge absorbers",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A2BA",
+    "code": "A2BA",
+    "type": "Fault",
+    "title": "IGBT overload",
+    "addInfo": "",
+    "cause": "Excessive IGBT temperature; may be caused by motor cable short",
+    "remedy": "Check motor cable; ambient; airflow; fan; heatsink dust; motor vs drive rating",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A3A1",
+    "code": "A3A1",
+    "type": "Fault",
+    "title": "DC link overvoltage",
+    "addInfo": "",
+    "cause": "DC bus voltage too high when stopped",
+    "remedy": "Check supply voltage setting; verify correct supply voltage",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A3A2",
+    "code": "A3A2",
+    "type": "Fault",
+    "title": "DC link undervoltage",
+    "addInfo": "",
+    "cause": "DC bus voltage too low when stopped",
+    "remedy": "Check supply voltage; incorrect setting may cause uncontrolled motor rush",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A3AA",
+    "code": "A3AA",
+    "type": "Fault",
+    "title": "DC not charged",
+    "addInfo": "",
+    "cause": "DC bus voltage not yet at operating level",
+    "remedy": "Check affected module via auxiliary code; contact ABB if persistent",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A480",
+    "code": "A480",
+    "type": "Fault",
+    "title": "Motor cable overload",
+    "addInfo": "",
+    "cause": "Calculated motor cable temperature exceeded limit",
+    "remedy": "Check parameters 35.61/35.62; verify cable sizing",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A490",
+    "code": "A490",
+    "type": "Fault",
+    "title": "Incorrect temperature sensor setup",
+    "addInfo": "",
+    "cause": "Motor temperature measurement configuration error",
+    "remedy": "Check parameters 35.11–35.24; check sensor wiring; correct sensor type",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A491",
+    "code": "A491",
+    "type": "Fault",
+    "title": "External temperature 1",
+    "addInfo": "",
+    "cause": "Measured temperature 1 exceeded limit",
+    "remedy": "Check parameter 35.02; check cooling; check warning limit 35.13",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A492",
+    "code": "A492",
+    "type": "Fault",
+    "title": "External temperature 2",
+    "addInfo": "",
+    "cause": "Measured temperature 2 exceeded limit",
+    "remedy": "Check parameter 35.03; check cooling; check warning limit 35.23",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A497",
+    "code": "A497",
+    "type": "Fault",
+    "title": "Motor temperature 1",
+    "addInfo": "",
+    "cause": "Thermistor module slot 1 indicates overtemperature",
+    "remedy": "Check motor cooling; load; wiring; sensor resistance; replace sensor if faulty",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A498",
+    "code": "A498",
+    "type": "Fault",
+    "title": "Motor temperature 2",
+    "addInfo": "",
+    "cause": "Thermistor module slot 2 indicates overtemperature",
+    "remedy": "Same corrective actions as A497",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A499",
+    "code": "A499",
+    "type": "Fault",
+    "title": "Motor temperature 3",
+    "addInfo": "",
+    "cause": "Thermistor module slot 3 indicates overtemperature",
+    "remedy": "Same corrective actions as A497",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A4A0",
+    "code": "A4A0",
+    "type": "Fault",
+    "title": "Control board temperature",
+    "addInfo": "",
+    "cause": "Control unit temperature excessive",
+    "remedy": "Check ambient; airflow; fan; heatsink dust; replace control unit if thermistor broken",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A4A1",
+    "code": "A4A1",
+    "type": "Fault",
+    "title": "IGBT overtemperature",
+    "addInfo": "",
+    "cause": "Estimated IGBT temp high",
+    "remedy": "Check ambient, airflow, fan, heatsink",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A4A9",
+    "code": "A4A9",
+    "type": "Fault",
+    "title": "Cooling",
+    "addInfo": "",
+    "cause": "Drive module temperature excessive",
+    "remedy": "Check ambient; derating; airflow; fan; cabinet dust; clean if needed",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A4B0",
+    "code": "A4B0",
+    "type": "Fault",
+    "title": "Excess temperature",
+    "addInfo": "",
+    "cause": "Power unit temperature excessive",
+    "remedy": "Check ambient; airflow; fan; heatsink dust; motor vs drive rating; use auxiliary code to locate sensor",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A4B1",
+    "code": "A4B1",
+    "type": "Fault",
+    "title": "Excess temperature difference",
+    "addInfo": "",
+    "cause": "High temperature difference between IGBTs",
+    "remedy": "Check motor cabling; cooling; use auxiliary code to identify phase/module",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A4B2",
+    "code": "A4B2",
+    "type": "Fault",
+    "title": "PCB space cooling",
+    "addInfo": "",
+    "cause": "PCB space temperature difference excessive",
+    "remedy": "Check PCB space cooling fan; use auxiliary code for module identification",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A4F6",
+    "code": "A4F6",
+    "type": "Fault",
+    "title": "IGBT temperature",
+    "addInfo": "",
+    "cause": "Drive IGBT temperature excessive",
+    "remedy": "Check ambient; airflow; fan; heatsink dust; motor vs drive rating",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A580",
+    "code": "A580",
+    "type": "Fault",
+    "title": "PU communication",
+    "addInfo": "",
+    "cause": "Communication errors between control unit and power unit",
+    "remedy": "Check connections; use auxiliary code to identify transmission error type",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A581",
+    "code": "A581",
+    "type": "Fault",
+    "title": "Fan",
+    "addInfo": "",
+    "cause": "Cooling fan stuck/disconnected",
+    "remedy": "Check parameter 95.20; use auxiliary code to identify fan; inspect/replace fan",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A582",
+    "code": "A582",
+    "type": "Fault",
+    "title": "Auxiliary fan missing",
+    "addInfo": "",
+    "cause": "Auxiliary fan stuck/disconnected",
+    "remedy": "Check auxiliary fans; replace if faulty; ensure front cover installed",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A5A0",
+    "code": "A5A0",
+    "type": "Fault",
+    "title": "Safe torque off",
+    "addInfo": "",
+    "cause": "STO safety circuit signal lost",
+    "remedy": "Check STO wiring; verify safety circuit connections",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A5EA",
+    "code": "A5EA",
+    "type": "Fault",
+    "title": "Measurement circuit temperature",
+    "addInfo": "",
+    "cause": "Internal temperature measurement problem",
+    "remedy": "Use auxiliary code to identify sensor location; inspect cooling",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A5EB",
+    "code": "A5EB",
+    "type": "Fault",
+    "title": "PU board powerfail",
+    "addInfo": "",
+    "cause": "Power unit supply failure",
+    "remedy": "Contact ABB",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A5EC",
+    "code": "A5EC",
+    "type": "Fault",
+    "title": "PU communication internal",
+    "addInfo": "",
+    "cause": "Internal PU communication error",
+    "remedy": "Check control‑to‑power unit connections",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A5ED",
+    "code": "A5ED",
+    "type": "Fault",
+    "title": "Measurement circuit ADC",
+    "addInfo": "",
+    "cause": "ADC measurement problem",
+    "remedy": "Contact ABB",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A5EE",
+    "code": "A5EE",
+    "type": "Fault",
+    "title": "Measurement circuit DFF",
+    "addInfo": "",
+    "cause": "Current/voltage measurement problem",
+    "remedy": "Contact ABB",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A5EF",
+    "code": "A5EF",
+    "type": "Fault",
+    "title": "PU state feedback",
+    "addInfo": "",
+    "cause": "Output phase feedback mismatch",
+    "remedy": "Contact ABB",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A5F0",
+    "code": "A5F0",
+    "type": "Fault",
+    "title": "Charging feedback",
+    "addInfo": "",
+    "cause": "Charging in progress",
+    "remedy": "Informative; wait until charging completes",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A5F3",
+    "code": "A5F3",
+    "type": "Fault",
+    "title": "Switching frequency below requested",
+    "addInfo": "",
+    "cause": "Requested output frequency cannot be met",
+    "remedy": "Informative warning",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A5F4",
+    "code": "A5F4",
+    "type": "Fault",
+    "title": "Control unit battery",
+    "addInfo": "",
+    "cause": "Control unit battery low",
+    "remedy": "Replace battery; can suppress via parameter 31.40",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A682",
+    "code": "A682",
+    "type": "Fault",
+    "title": "Flash erase speed exceeded",
+    "addInfo": "",
+    "cause": "Flash memory erased too frequently",
+    "remedy": "Avoid unnecessary saves; check auxiliary code for subsector number",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A683",
+    "code": "A683",
+    "type": "Fault",
+    "title": "Data saving to power unit",
+    "addInfo": "",
+    "cause": "Error saving data to PU",
+    "remedy": "Cycle power; reboot control unit; contact ABB if persistent",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A684",
+    "code": "A684",
+    "type": "Fault",
+    "title": "SD card",
+    "addInfo": "",
+    "cause": "SD card error (BCU only)",
+    "remedy": "Insert writable SD card; remove write protection; replace unreadable card",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A686",
+    "code": "A686",
+    "type": "Fault",
+    "title": "Checksum mismatch",
+    "addInfo": "",
+    "cause": "Parameter checksum mismatch",
+    "remedy": "Enable correct reference checksums; verify configuration; update checksum",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A687",
+    "code": "A687",
+    "type": "Fault",
+    "title": "Checksum configuration",
+    "addInfo": "",
+    "cause": "Checksum mismatch action defined but not configured",
+    "remedy": "Contact ABB or disable feature",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A688",
+    "code": "A688",
+    "type": "Fault",
+    "title": "Parameter map configuration",
+    "addInfo": "",
+    "cause": "Too much data in mapping table",
+    "remedy": "Reduce mapping table size; refer to Drive Customizer manual",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A689",
+    "code": "A689",
+    "type": "Fault",
+    "title": "Mapped parameter value cut",
+    "addInfo": "",
+    "cause": "Parameter value saturated due to scaling",
+    "remedy": "Adjust scaling/format in mapping table",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A6A4",
+    "code": "A6A4",
+    "type": "Fault",
+    "title": "Motor nominal value",
+    "addInfo": "",
+    "cause": "Motor parameters incorrect or drive incorrectly sized",
+    "remedy": "Check motor parameters (groups 98/99); verify drive sizing",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A6A5",
+    "code": "A6A5",
+    "type": "Fault",
+    "title": "No motor data",
+    "addInfo": "",
+    "cause": "Motor parameters not set",
+    "remedy": "Enter all required motor data in group 99",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A6A6",
+    "code": "A6A6",
+    "type": "Fault",
+    "title": "Supply voltage unselected",
+    "addInfo": "",
+    "cause": "Supply voltage not defined",
+    "remedy": "Set parameter 95.01",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A6A7",
+    "code": "A6A7",
+    "type": "Fault",
+    "title": "System time not set",
+    "addInfo": "",
+    "cause": "Clock not set",
+    "remedy": "Set system time",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A6B0",
+    "code": "A6B0",
+    "type": "Fault",
+    "title": "User lock open",
+    "addInfo": "",
+    "cause": "User lock configuration visible",
+    "remedy": "Close user lock via invalid pass code in 96.02",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A6B1",
+    "code": "A6B1",
+    "type": "Fault",
+    "title": "User pass code not confirmed",
+    "addInfo": "",
+    "cause": "New pass code not confirmed",
+    "remedy": "Enter same code in 96.101 to confirm",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A6D1",
+    "code": "A6D1",
+    "type": "Fault",
+    "title": "FBA A parameter conflict",
+    "addInfo": "",
+    "cause": "PLC requested unsupported function",
+    "remedy": "Check PLC programming; check FBA settings",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A6D2",
+    "code": "A6D2",
+    "type": "Fault",
+    "title": "FBA B parameter conflict",
+    "addInfo": "",
+    "cause": "PLC requested unsupported function",
+    "remedy": "Check PLC programming; check FBA settings",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A6DA",
+    "code": "A6DA",
+    "type": "Fault",
+    "title": "Reference source parametrization",
+    "addInfo": "",
+    "cause": "Reference source connected to multiple parameters with different units",
+    "remedy": "Check reference source selections; use auxiliary code to identify conflict",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A6E5",
+    "code": "A6E5",
+    "type": "Fault",
+    "title": "AI parametrization",
+    "addInfo": "",
+    "cause": "Analog input hardware setting mismatch",
+    "remedy": "Adjust hardware setting or parameter 12.15/12.25; reboot control board",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A6E6",
+    "code": "A6E6",
+    "type": "Fault",
+    "title": "ULC configuration",
+    "addInfo": "",
+    "cause": "User load curve configuration error",
+    "remedy": "Correct speed/frequency/overload/underload point ordering",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A780",
+    "code": "A780",
+    "type": "Fault",
+    "title": "Motor stall",
+    "addInfo": "",
+    "cause": "Motor operating in stall region",
+    "remedy": "Check motor load; drive rating; stall function parameters",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A781",
+    "code": "A781",
+    "type": "Fault",
+    "title": "Motor fan",
+    "addInfo": "",
+    "cause": "No feedback from external fan",
+    "remedy": "Check external fan; check parameters 35.100–35.106",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A782",
+    "code": "A782",
+    "type": "Fault",
+    "title": "FEN temperature",
+    "addInfo": "",
+    "cause": "Temperature sensor error on encoder interface",
+    "remedy": "Check temperature source settings; check encoder module activation; use PTC if FEN‑01",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A783",
+    "code": "A783",
+    "type": "Fault",
+    "title": "Motor overload",
+    "addInfo": "",
+    "cause": "Motor current too high",
+    "remedy": "Check overload parameters",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A784",
+    "code": "A784",
+    "type": "Fault",
+    "title": "Motor disconnect",
+    "addInfo": "",
+    "cause": "All phases disconnected",
+    "remedy": "Check motor wiring",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A791",
+    "code": "A791",
+    "type": "Fault",
+    "title": "Brake resistor",
+    "addInfo": "",
+    "cause": "Brake resistor broken/not connected",
+    "remedy": "Check resistor connection and condition",
+    "brand": "ABB",
+    "families": [
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A793",
+    "code": "A793",
+    "type": "Fault",
+    "title": "BR excess temperature",
+    "addInfo": "",
+    "cause": "Brake resistor temperature exceeded limit",
+    "remedy": "Stop drive; cool resistor; check overload protection; check warning limit; verify resistor sizing",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A794",
+    "code": "A794",
+    "type": "Fault",
+    "title": "BR data",
+    "addInfo": "",
+    "cause": "Brake resistor data missing/incorrect",
+    "remedy": "Correct parameters 43.08–43.10 based on auxiliary code",
+    "brand": "ABB",
+    "families": [
+      "ACS580",
+      "ACS880"
+    ]
+  },
+  {
+    "id": "A79C",
+    "code": "A79C",
+    "type": "Fault",
+    "title": "BC IGBT excess temp",
+    "addInfo": "",
+    "cause": "Brake chopper IGBT temp high",
+    "remedy": "Cool, check fan, cabinet, resistor",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A7A2",
+    "code": "A7A2",
+    "type": "Fault",
+    "title": "Mechanical brake opening failed",
+    "addInfo": "",
+    "cause": "Brake ack mismatch",
+    "remedy": "Check brake wiring/settings",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A7AB",
+    "code": "A7AB",
+    "type": "Fault",
+    "title": "Extension I/O config failure",
+    "addInfo": "",
+    "cause": "Wrong module or comm disturbed",
+    "remedy": "Check module type",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A7C1",
+    "code": "A7C1",
+    "type": "Fault",
+    "title": "FBA A communication",
+    "addInfo": "",
+    "cause": "Fieldbus A comm lost",
+    "remedy": "Check fieldbus wiring/settings",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A7CE",
+    "code": "A7CE",
+    "type": "Fault",
+    "title": "EFB comm loss",
+    "addInfo": "",
+    "cause": "Embedded fieldbus comm lost",
+    "remedy": "Check RS485 wiring",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A7EE",
+    "code": "A7EE",
+    "type": "Fault",
+    "title": "Panel loss",
+    "addInfo": "",
+    "cause": "Control panel/PC tool lost",
+    "remedy": "Check panel connection",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A88F",
+    "code": "A88F",
+    "type": "Fault",
+    "title": "Cooling fan",
+    "addInfo": "",
+    "cause": "Fan maintenance limit exceeded",
+    "remedy": "Replace fan",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A8A0",
+    "code": "A8A0",
+    "type": "Fault",
+    "title": "AI supervision",
+    "addInfo": "",
+    "cause": "Analog signal out of limits",
+    "remedy": "Check wiring, signal level",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "A8A1",
+    "code": "A8A1",
+    "type": "Fault",
+    "title": "RO life warning",
+    "addInfo": "",
+    "cause": "Relay exceeded life",
+    "remedy": "Replace relay",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  },
+  {
+    "id": "B686",
+    "code": "B686",
+    "type": "Fault",
+    "title": "Checksum mismatch",
+    "addInfo": "",
+    "cause": "Actual checksum does not match approved checksum",
+    "remedy": "Informative",
+    "brand": "ABB",
+    "families": [
+      "ACS580"
+    ]
+  }
+]

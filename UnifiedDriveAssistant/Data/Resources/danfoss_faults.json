@@ -1,0 +1,730 @@
+[
+  {
+    "id": "2",
+    "code": "2",
+    "type": "Fault/Alarm",
+    "title": "Live zero error",
+    "addInfo": "Warning + Alarm",
+    "cause": "Signal on terminal 53/54 < 50% of configured low‑limit",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "3",
+    "code": "3",
+    "type": "Alarm",
+    "title": "No motor",
+    "addInfo": "Warning",
+    "cause": "No motor connected to drive output",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "4",
+    "code": "4",
+    "type": "Fault/Alarm",
+    "title": "Mains phase loss",
+    "addInfo": "Warning + Alarm + Trip‑lock",
+    "cause": "Missing supply phase or high imbalance",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "7",
+    "code": "7",
+    "type": "Fault/Alarm",
+    "title": "DC overvoltage",
+    "addInfo": "Warning + Alarm",
+    "cause": "DC‑link voltage exceeds limit",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "8",
+    "code": "8",
+    "type": "Fault/Alarm",
+    "title": "DC undervoltage",
+    "addInfo": "Warning + Alarm",
+    "cause": "DC‑link voltage below low limit",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "9",
+    "code": "9",
+    "type": "Alarm",
+    "title": "Inverter overloaded",
+    "addInfo": "Warning",
+    "cause": ">100% load for too long",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "10",
+    "code": "10",
+    "type": "Fault/Alarm",
+    "title": "Motor ETR overtemperature",
+    "addInfo": "Warning + Alarm",
+    "cause": "Motor too hot due to overload",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "11",
+    "code": "11",
+    "type": "Fault/Alarm",
+    "title": "Motor thermistor overtemperature",
+    "addInfo": "Warning + Alarm",
+    "cause": "Thermistor disconnected or motor too hot",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "12",
+    "code": "12",
+    "type": "Fault/Alarm",
+    "title": "Torque limit",
+    "addInfo": "Warning + Alarm",
+    "cause": "Torque exceeds limit set in parameters",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "13",
+    "code": "13",
+    "type": "Fault/Alarm",
+    "title": "Overcurrent",
+    "addInfo": "Warning + Alarm + Trip‑lock",
+    "cause": "Peak current exceeded; check wiring",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "14",
+    "code": "14",
+    "type": "Fault",
+    "title": "Ground fault",
+    "addInfo": "Alarm + Trip‑lock",
+    "cause": "Discharge from output phases to ground",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "16",
+    "code": "16",
+    "type": "Fault",
+    "title": "Short circuit",
+    "addInfo": "Alarm + Trip‑lock",
+    "cause": "Short circuit in motor or terminals",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "17",
+    "code": "17",
+    "type": "Fault/Alarm",
+    "title": "Control word timeout",
+    "addInfo": "Warning + Alarm",
+    "cause": "No communication to drive",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "25",
+    "code": "25",
+    "type": "Fault",
+    "title": "Brake resistor short‑circuited",
+    "addInfo": "Alarm + Trip‑lock",
+    "cause": "Brake resistor shorted; brake disabled",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "26",
+    "code": "26",
+    "type": "Fault/Alarm",
+    "title": "Brake overload",
+    "addInfo": "Warning + Alarm",
+    "cause": "Brake resistor overloaded over last 120s",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "27",
+    "code": "27",
+    "type": "Fault",
+    "title": "Brake IGBT/chopper short‑circuited",
+    "addInfo": "Alarm + Trip‑lock",
+    "cause": "Brake transistor shorted",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "28",
+    "code": "28",
+    "type": "Fault",
+    "title": "Brake check",
+    "addInfo": "Alarm",
+    "cause": "Brake resistor not connected/working",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "30",
+    "code": "30",
+    "type": "Fault",
+    "title": "U phase loss",
+    "addInfo": "Alarm + Trip‑lock",
+    "cause": "Motor phase U missing",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "31",
+    "code": "31",
+    "type": "Fault",
+    "title": "V phase loss",
+    "addInfo": "Alarm + Trip‑lock",
+    "cause": "Motor phase V missing",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "32",
+    "code": "32",
+    "type": "Fault",
+    "title": "W phase loss",
+    "addInfo": "Alarm + Trip‑lock",
+    "cause": "Motor phase W missing",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "34",
+    "code": "34",
+    "type": "Fault/Alarm",
+    "title": "Fieldbus fault",
+    "addInfo": "Warning + Alarm",
+    "cause": "Fieldbus communication issue",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "35",
+    "code": "35",
+    "type": "Fault",
+    "title": "Option fault",
+    "addInfo": "Alarm",
+    "cause": "Fieldbus detects internal faults",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "36",
+    "code": "36",
+    "type": "Fault/Alarm",
+    "title": "Mains failure",
+    "addInfo": "Warning + Alarm",
+    "cause": "Supply voltage below configured threshold",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "38",
+    "code": "38",
+    "type": "Fault",
+    "title": "Internal fault",
+    "addInfo": "Alarm + Trip‑lock",
+    "cause": "Contact supplier",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "40",
+    "code": "40",
+    "type": "Alarm",
+    "title": "Overload T27",
+    "addInfo": "Warning",
+    "cause": "Load on terminal 27 overloaded or shorted",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "46",
+    "code": "46",
+    "type": "Fault",
+    "title": "Gate drive voltage fault",
+    "addInfo": "Alarm + Trip‑lock",
+    "cause": "Gate drive voltage abnormal",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "47",
+    "code": "47",
+    "type": "Fault/Alarm",
+    "title": "24V supply low",
+    "addInfo": "Warning + Alarm + Trip‑lock",
+    "cause": "24V DC overloaded",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "49",
+    "code": "49",
+    "type": "Fault",
+    "title": "Speed limit",
+    "addInfo": "Alarm",
+    "cause": "Motor speed below parameter 1‑87 limit",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "50",
+    "code": "50",
+    "type": "Fault",
+    "title": "AMA calibration failed",
+    "addInfo": "Alarm",
+    "cause": "AMA calibration error",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "51",
+    "code": "51",
+    "type": "Fault",
+    "title": "AMA check Unom/Inom",
+    "addInfo": "Alarm",
+    "cause": "Wrong motor voltage/current settings",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "52",
+    "code": "52",
+    "type": "Fault",
+    "title": "AMA low Inom",
+    "addInfo": "Alarm",
+    "cause": "Motor current too low",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "53",
+    "code": "53",
+    "type": "Fault",
+    "title": "AMA big motor",
+    "addInfo": "Alarm",
+    "cause": "Motor too large for AMA",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "54",
+    "code": "54",
+    "type": "Fault",
+    "title": "AMA small motor",
+    "addInfo": "Alarm",
+    "cause": "Motor too small for AMA",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "55",
+    "code": "55",
+    "type": "Fault",
+    "title": "AMA parameter range",
+    "addInfo": "Alarm",
+    "cause": "Motor parameters outside acceptable range",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "56",
+    "code": "56",
+    "type": "Fault",
+    "title": "AMA interrupt",
+    "addInfo": "Alarm",
+    "cause": "AMA interrupted",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "57",
+    "code": "57",
+    "type": "Fault",
+    "title": "AMA timeout",
+    "addInfo": "Alarm",
+    "cause": "AMA timed out",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "58",
+    "code": "58",
+    "type": "Fault",
+    "title": "AMA internal",
+    "addInfo": "Alarm",
+    "cause": "Internal AMA error",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "59",
+    "code": "59",
+    "type": "Fault/Alarm",
+    "title": "Current limit",
+    "addInfo": "Warning + Alarm",
+    "cause": "Drive overload",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "60",
+    "code": "60",
+    "type": "Fault",
+    "title": "External interlock",
+    "addInfo": "Alarm",
+    "cause": "External interlock activated",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "61",
+    "code": "61",
+    "type": "Fault/Alarm",
+    "title": "Encoder loss",
+    "addInfo": "Warning + Alarm",
+    "cause": "Encoder signal lost",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "63",
+    "code": "63",
+    "type": "Fault",
+    "title": "Mechanical brake low",
+    "addInfo": "Alarm",
+    "cause": "Brake release current not reached",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "65",
+    "code": "65",
+    "type": "Fault/Alarm",
+    "title": "Control card temperature",
+    "addInfo": "Warning + Alarm + Trip‑lock",
+    "cause": "Control card over‑temperature",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "67",
+    "code": "67",
+    "type": "Fault",
+    "title": "Option change",
+    "addInfo": "Alarm",
+    "cause": "Option added/removed",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "68",
+    "code": "68",
+    "type": "Fault/Alarm",
+    "title": "Safe Torque Off",
+    "addInfo": "Warning + Alarm",
+    "cause": "STO activated",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "69",
+    "code": "69",
+    "type": "Fault/Alarm",
+    "title": "Power card temperature",
+    "addInfo": "Warning + Alarm + Trip‑lock",
+    "cause": "Power card over‑temperature",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "80",
+    "code": "80",
+    "type": "Fault",
+    "title": "Drive initialized to default",
+    "addInfo": "Alarm",
+    "cause": "Parameters reset to default",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "87",
+    "code": "87",
+    "type": "Alarm",
+    "title": "Auto DC brake",
+    "addInfo": "Warning",
+    "cause": "DC link voltage high during coast",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "88",
+    "code": "88",
+    "type": "Fault",
+    "title": "Option detection",
+    "addInfo": "Alarm + Trip‑lock",
+    "cause": "Option removed successfully",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "95",
+    "code": "95",
+    "type": "Fault/Alarm",
+    "title": "Broken belt",
+    "addInfo": "Warning + Alarm",
+    "cause": "Belt broken",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "99",
+    "code": "99",
+    "type": "Fault",
+    "title": "Locked rotor",
+    "addInfo": "Alarm",
+    "cause": "Rotor blocked",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "120",
+    "code": "120",
+    "type": "Fault",
+    "title": "Position control fault",
+    "addInfo": "Alarm",
+    "cause": "Position control error",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "126",
+    "code": "126",
+    "type": "Fault",
+    "title": "Motor rotating",
+    "addInfo": "Alarm",
+    "cause": "PM motor rotating during AMA",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "127",
+    "code": "127",
+    "type": "Alarm",
+    "title": "Back EMF too high",
+    "addInfo": "Warning",
+    "cause": "Back EMF too high before start",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "188",
+    "code": "188",
+    "type": "Fault",
+    "title": "STO internal fault",
+    "addInfo": "Alarm",
+    "cause": "STO terminals mismatch or STO failure",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "nw run",
+    "code": "nw run",
+    "type": "Unknown",
+    "title": "Not while running",
+    "addInfo": "Informative (no warning/alarm/trip-lock raised)",
+    "cause": "Parameter change only allowed when stopped",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  },
+  {
+    "id": "Err.",
+    "code": "Err.",
+    "type": "Unknown",
+    "title": "Wrong password",
+    "addInfo": "Informative (no warning/alarm/trip-lock raised)",
+    "cause": "Incorrect password entered",
+    "remedy": "",
+    "brand": "Danfoss",
+    "families": [
+      "FC-280"
+    ]
+  }
+]
