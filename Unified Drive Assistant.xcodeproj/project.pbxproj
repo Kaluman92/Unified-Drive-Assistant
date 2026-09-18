@@ -6,8 +6,105 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3AA55CA93043CC6D00BEE359 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3AA55CA83043CC6D00BEE359 /* GoogleSignIn */; };
+		3AA55CAB3043CC6D00BEE359 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3AA55CAA3043CC6D00BEE359 /* GoogleSignInSwift */; };
+		3AA55E3230441A9A00BEE359 /* .env.example in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DF430441A9A00BEE359 /* .env.example */; };
+		3AA55E3330441A9A00BEE359 /* abb_faults.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55E0930441A9A00BEE359 /* abb_faults.json */; };
+		3AA55E3430441A9A00BEE359 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DF630441A9A00BEE359 /* package.json */; };
+		3AA55E3530441A9A00BEE359 /* siemens_s120_faults.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55E0C30441A9A00BEE359 /* siemens_s120_faults.json */; };
+		3AA55E3630441A9A00BEE359 /* danfoss_faults.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55E0A30441A9A00BEE359 /* danfoss_faults.json */; };
+		3AA55E3730441A9A00BEE359 /* schneider_faults.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55E0B30441A9A00BEE359 /* schneider_faults.json */; };
+		3AA55E3830441A9A00BEE359 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DF530441A9A00BEE359 /* .gitignore */; };
+		3AA55E3930441A9A00BEE359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DFF30441A9A00BEE359 /* Assets.xcassets */; };
+		3AA55E3A30441A9A00BEE359 /* InfoPlist-AdditionsNeeded.md in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55E0130441A9A00BEE359 /* InfoPlist-AdditionsNeeded.md */; };
+		3AA55E3B30441A9A00BEE359 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DF730441A9A00BEE359 /* README.md */; };
+		3AA55E3C30441A9A00BEE359 /* fault-guidance.js in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DF230441A9A00BEE359 /* fault-guidance.js */; };
+		3AA55E3D30441A9A00BEE359 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E0430441A9A00BEE359 /* AuthManager.swift */; };
+		3AA55E3E30441A9A00BEE359 /* FaultDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E0F30441A9A00BEE359 /* FaultDataStore.swift */; };
+		3AA55E3F30441A9A00BEE359 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E0030441A9A00BEE359 /* ContentView.swift */; };
+		3AA55E4030441A9A00BEE359 /* LocationPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E1A30441A9A00BEE359 /* LocationPermission.swift */; };
+		3AA55E4130441A9A00BEE359 /* VibrationAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2730441A9A00BEE359 /* VibrationAnalysisView.swift */; };
+		3AA55E4230441A9A00BEE359 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E1630441A9A00BEE359 /* ReviewView.swift */; };
+		3AA55E4330441A9A00BEE359 /* SaveSiteVisitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E1C30441A9A00BEE359 /* SaveSiteVisitView.swift */; };
+		3AA55E4430441A9A00BEE359 /* VSDSizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2D30441A9A00BEE359 /* VSDSizingView.swift */; };
+		3AA55E4530441A9A00BEE359 /* SiteGeofenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E1D30441A9A00BEE359 /* SiteGeofenceManager.swift */; };
+		3AA55E4630441A9A00BEE359 /* VibrationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2830441A9A00BEE359 /* VibrationEngine.swift */; };
+		3AA55E4730441A9A00BEE359 /* NearbyVisitsBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E1B30441A9A00BEE359 /* NearbyVisitsBanner.swift */; };
+		3AA55E4830441A9A00BEE359 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E0530441A9A00BEE359 /* LoginView.swift */; };
+		3AA55E4930441A9A00BEE359 /* FaultListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E1330441A9A00BEE359 /* FaultListView.swift */; };
+		3AA55E4A30441A9A00BEE359 /* ReviewComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E1530441A9A00BEE359 /* ReviewComposer.swift */; };
+		3AA55E4B30441A9A00BEE359 /* LinearSpeedTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2330441A9A00BEE359 /* LinearSpeedTracker.swift */; };
+		3AA55E4C30441A9A00BEE359 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55DFB30441A9A00BEE359 /* KeychainHelper.swift */; };
+		3AA55E4D30441A9A00BEE359 /* UnifiedDriveAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E0230441A9A00BEE359 /* UnifiedDriveAssistantApp.swift */; };
+		3AA55E4E30441A9A00BEE359 /* SpeedMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2630441A9A00BEE359 /* SpeedMeasurementView.swift */; };
+		3AA55E4F30441A9A00BEE359 /* NameplateScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2430441A9A00BEE359 /* NameplateScanner.swift */; };
+		3AA55E5030441A9A00BEE359 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2230441A9A00BEE359 /* CameraPreviewView.swift */; };
+		3AA55E5130441A9A00BEE359 /* FaultCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E0E30441A9A00BEE359 /* FaultCode.swift */; };
+		3AA55E5230441A9A00BEE359 /* SiteHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E1E30441A9A00BEE359 /* SiteHistoryView.swift */; };
+		3AA55E5330441A9A00BEE359 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2A30441A9A00BEE359 /* SettingsView.swift */; };
+		3AA55E5430441A9A00BEE359 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55DFD30441A9A00BEE359 /* AnalyticsService.swift */; };
+		3AA55E5630441A9A00BEE359 /* ToolsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2F30441A9A00BEE359 /* ToolsMenuView.swift */; };
+		3AA55E5730441A9A00BEE359 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E0730441A9A00BEE359 /* Theme.swift */; };
+		3AA55E5830441A9A00BEE359 /* FaultDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E1230441A9A00BEE359 /* FaultDetailView.swift */; };
+		3AA55E5930441A9A00BEE359 /* BrandTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E1130441A9A00BEE359 /* BrandTabView.swift */; };
+		3AA55E5A30441A9A00BEE359 /* AIAssistantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55DF930441A9A00BEE359 /* AIAssistantService.swift */; };
+		3AA55E5B30441A9A00BEE359 /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2130441A9A00BEE359 /* CameraPermission.swift */; };
+		3AA55E5C30441A9A00BEE359 /* VSDSizingEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2C30441A9A00BEE359 /* VSDSizingEngine.swift */; };
+		3AA55E5D30441A9A00BEE359 /* SiteVisitStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E1F30441A9A00BEE359 /* SiteVisitStore.swift */; };
+		3AA55E5E30441A9A00BEE359 /* OpticalTachometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2530441A9A00BEE359 /* OpticalTachometer.swift */; };
+		3AA55E5F30441A9A00BEE359 /* AIAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55DFA30441A9A00BEE359 /* AIAssistantView.swift */; };
+		3ABE2C4D30540CDF00A4C955 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE2C4C30540CDF00A4C955 /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		3AC958233042DE90003EC941 /* Unified Drive Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unified Drive Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA375BA3042FECA003D12F8 /* Unified Drive Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unified Drive Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA55DF230441A9A00BEE359 /* fault-guidance.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "fault-guidance.js"; sourceTree = "<group>"; };
+		3AA55DF430441A9A00BEE359 /* .env.example */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env.example; sourceTree = "<group>"; };
+		3AA55DF530441A9A00BEE359 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		3AA55DF630441A9A00BEE359 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		3AA55DF730441A9A00BEE359 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3AA55DF930441A9A00BEE359 /* AIAssistantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantService.swift; sourceTree = "<group>"; };
+		3AA55DFA30441A9A00BEE359 /* AIAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAssistantView.swift; sourceTree = "<group>"; };
+		3AA55DFB30441A9A00BEE359 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		3AA55DFD30441A9A00BEE359 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		3AA55DFF30441A9A00BEE359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AA55E0030441A9A00BEE359 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AA55E0130441A9A00BEE359 /* InfoPlist-AdditionsNeeded.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "InfoPlist-AdditionsNeeded.md"; sourceTree = "<group>"; };
+		3AA55E0230441A9A00BEE359 /* UnifiedDriveAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedDriveAssistantApp.swift; sourceTree = "<group>"; };
+		3AA55E0430441A9A00BEE359 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		3AA55E0530441A9A00BEE359 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3AA55E0730441A9A00BEE359 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3AA55E0930441A9A00BEE359 /* abb_faults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = abb_faults.json; sourceTree = "<group>"; };
+		3AA55E0A30441A9A00BEE359 /* danfoss_faults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = danfoss_faults.json; sourceTree = "<group>"; };
+		3AA55E0B30441A9A00BEE359 /* schneider_faults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schneider_faults.json; sourceTree = "<group>"; };
+		3AA55E0C30441A9A00BEE359 /* siemens_s120_faults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = siemens_s120_faults.json; sourceTree = "<group>"; };
+		3AA55E0E30441A9A00BEE359 /* FaultCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaultCode.swift; sourceTree = "<group>"; };
+		3AA55E0F30441A9A00BEE359 /* FaultDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaultDataStore.swift; sourceTree = "<group>"; };
+		3AA55E1130441A9A00BEE359 /* BrandTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandTabView.swift; sourceTree = "<group>"; };
+		3AA55E1230441A9A00BEE359 /* FaultDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaultDetailView.swift; sourceTree = "<group>"; };
+		3AA55E1330441A9A00BEE359 /* FaultListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaultListView.swift; sourceTree = "<group>"; };
+		3AA55E1530441A9A00BEE359 /* ReviewComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewComposer.swift; sourceTree = "<group>"; };
+		3AA55E1630441A9A00BEE359 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		3AA55E1A30441A9A00BEE359 /* LocationPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermission.swift; sourceTree = "<group>"; };
+		3AA55E1B30441A9A00BEE359 /* NearbyVisitsBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyVisitsBanner.swift; sourceTree = "<group>"; };
+		3AA55E1C30441A9A00BEE359 /* SaveSiteVisitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveSiteVisitView.swift; sourceTree = "<group>"; };
+		3AA55E1D30441A9A00BEE359 /* SiteGeofenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteGeofenceManager.swift; sourceTree = "<group>"; };
+		3AA55E1E30441A9A00BEE359 /* SiteHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteHistoryView.swift; sourceTree = "<group>"; };
+		3AA55E1F30441A9A00BEE359 /* SiteVisitStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteVisitStore.swift; sourceTree = "<group>"; };
+		3AA55E2130441A9A00BEE359 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
+		3AA55E2230441A9A00BEE359 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		3AA55E2330441A9A00BEE359 /* LinearSpeedTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSpeedTracker.swift; sourceTree = "<group>"; };
+		3AA55E2430441A9A00BEE359 /* NameplateScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameplateScanner.swift; sourceTree = "<group>"; };
+		3AA55E2530441A9A00BEE359 /* OpticalTachometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpticalTachometer.swift; sourceTree = "<group>"; };
+		3AA55E2630441A9A00BEE359 /* SpeedMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeasurementView.swift; sourceTree = "<group>"; };
+		3AA55E2730441A9A00BEE359 /* VibrationAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationAnalysisView.swift; sourceTree = "<group>"; };
+		3AA55E2830441A9A00BEE359 /* VibrationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationEngine.swift; sourceTree = "<group>"; };
+		3AA55E2A30441A9A00BEE359 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3AA55E2C30441A9A00BEE359 /* VSDSizingEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSDSizingEngine.swift; sourceTree = "<group>"; };
+		3AA55E2D30441A9A00BEE359 /* VSDSizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSDSizingView.swift; sourceTree = "<group>"; };
+		3AA55E2F30441A9A00BEE359 /* ToolsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsMenuView.swift; sourceTree = "<group>"; };
+		3ABE2C4C30540CDF00A4C955 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,26 +120,210 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA55CA93043CC6D00BEE359 /* GoogleSignIn in Frameworks */,
+				3AA55CAB3043CC6D00BEE359 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AA55DF330441A9A00BEE359 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55DF230441A9A00BEE359 /* fault-guidance.js */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		3AA55DF830441A9A00BEE359 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55DF330441A9A00BEE359 /* api */,
+				3AA55DF430441A9A00BEE359 /* .env.example */,
+				3AA55DF530441A9A00BEE359 /* .gitignore */,
+				3AA55DF630441A9A00BEE359 /* package.json */,
+				3AA55DF730441A9A00BEE359 /* README.md */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		3AA55DFC30441A9A00BEE359 /* AIAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55DF930441A9A00BEE359 /* AIAssistantService.swift */,
+				3AA55DFA30441A9A00BEE359 /* AIAssistantView.swift */,
+				3AA55DFB30441A9A00BEE359 /* KeychainHelper.swift */,
+			);
+			path = AIAssistant;
+			sourceTree = "<group>";
+		};
+		3AA55DFE30441A9A00BEE359 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55DFD30441A9A00BEE359 /* AnalyticsService.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		3AA55E0330441A9A00BEE359 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55DFF30441A9A00BEE359 /* Assets.xcassets */,
+				3AA55E0030441A9A00BEE359 /* ContentView.swift */,
+				3AA55E0130441A9A00BEE359 /* InfoPlist-AdditionsNeeded.md */,
+				3AA55E0230441A9A00BEE359 /* UnifiedDriveAssistantApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3AA55E0630441A9A00BEE359 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55E0430441A9A00BEE359 /* AuthManager.swift */,
+				3AA55E0530441A9A00BEE359 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3AA55E0830441A9A00BEE359 /* Cosmetics */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55E0730441A9A00BEE359 /* Theme.swift */,
+			);
+			path = Cosmetics;
+			sourceTree = "<group>";
+		};
+		3AA55E0D30441A9A00BEE359 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55E0930441A9A00BEE359 /* abb_faults.json */,
+				3AA55E0A30441A9A00BEE359 /* danfoss_faults.json */,
+				3AA55E0B30441A9A00BEE359 /* schneider_faults.json */,
+				3AA55E0C30441A9A00BEE359 /* siemens_s120_faults.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3AA55E1030441A9A00BEE359 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55E0D30441A9A00BEE359 /* Resources */,
+				3AA55E0E30441A9A00BEE359 /* FaultCode.swift */,
+				3AA55E0F30441A9A00BEE359 /* FaultDataStore.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3AA55E1430441A9A00BEE359 /* FaultLookup */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55E1130441A9A00BEE359 /* BrandTabView.swift */,
+				3AA55E1230441A9A00BEE359 /* FaultDetailView.swift */,
+				3AA55E1330441A9A00BEE359 /* FaultListView.swift */,
+			);
+			path = FaultLookup;
+			sourceTree = "<group>";
+		};
+		3AA55E1730441A9A00BEE359 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55E1530441A9A00BEE359 /* ReviewComposer.swift */,
+				3AA55E1630441A9A00BEE359 /* ReviewView.swift */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		3AA55E1930441A9A00BEE359 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3ABE2C4C30540CDF00A4C955 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3AA55E2030441A9A00BEE359 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55E1A30441A9A00BEE359 /* LocationPermission.swift */,
+				3AA55E1B30441A9A00BEE359 /* NearbyVisitsBanner.swift */,
+				3AA55E1C30441A9A00BEE359 /* SaveSiteVisitView.swift */,
+				3AA55E1D30441A9A00BEE359 /* SiteGeofenceManager.swift */,
+				3AA55E1E30441A9A00BEE359 /* SiteHistoryView.swift */,
+				3AA55E1F30441A9A00BEE359 /* SiteVisitStore.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		3AA55E2930441A9A00BEE359 /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55E2130441A9A00BEE359 /* CameraPermission.swift */,
+				3AA55E2230441A9A00BEE359 /* CameraPreviewView.swift */,
+				3AA55E2330441A9A00BEE359 /* LinearSpeedTracker.swift */,
+				3AA55E2430441A9A00BEE359 /* NameplateScanner.swift */,
+				3AA55E2530441A9A00BEE359 /* OpticalTachometer.swift */,
+				3AA55E2630441A9A00BEE359 /* SpeedMeasurementView.swift */,
+				3AA55E2730441A9A00BEE359 /* VibrationAnalysisView.swift */,
+				3AA55E2830441A9A00BEE359 /* VibrationEngine.swift */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		3AA55E2B30441A9A00BEE359 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55E2A30441A9A00BEE359 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3AA55E2E30441A9A00BEE359 /* Sizing */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55E2C30441A9A00BEE359 /* VSDSizingEngine.swift */,
+				3AA55E2D30441A9A00BEE359 /* VSDSizingView.swift */,
+			);
+			path = Sizing;
+			sourceTree = "<group>";
+		};
+		3AA55E3030441A9A00BEE359 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55E2F30441A9A00BEE359 /* ToolsMenuView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3AA55E3130441A9A00BEE359 /* UnifiedDriveAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				3AA55DFC30441A9A00BEE359 /* AIAssistant */,
+				3AA55DFE30441A9A00BEE359 /* Analytics */,
+				3AA55E0330441A9A00BEE359 /* App */,
+				3AA55E0630441A9A00BEE359 /* Auth */,
+				3AA55E0830441A9A00BEE359 /* Cosmetics */,
+				3AA55E1030441A9A00BEE359 /* Data */,
+				3AA55E1430441A9A00BEE359 /* FaultLookup */,
+				3AA55E1730441A9A00BEE359 /* Feedback */,
+				3AA55E1930441A9A00BEE359 /* Home */,
+				3AA55E2030441A9A00BEE359 /* Location */,
+				3AA55E2930441A9A00BEE359 /* Sensors */,
+				3AA55E2B30441A9A00BEE359 /* Settings */,
+				3AA55E2E30441A9A00BEE359 /* Sizing */,
+				3AA55E3030441A9A00BEE359 /* Tools */,
+			);
+			path = UnifiedDriveAssistant;
+			sourceTree = "<group>";
+		};
 		3AC9581A3042DE90003EC941 = {
 			isa = PBXGroup;
 			children = (
 				3AC958253042DE90003EC941 /* Unified Drive Assistant */,
-				3AC958243042DE90003EC941 /* Products */,
+				3AA375BA3042FECA003D12F8 /* Unified Drive Assistant.app */,
+				3AA55DF830441A9A00BEE359 /* Backend */,
+				3AA55E3130441A9A00BEE359 /* UnifiedDriveAssistant */,
 			);
-			sourceTree = "<group>";
-		};
-		3AC958243042DE90003EC941 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3AC958233042DE90003EC941 /* Unified Drive Assistant.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,9 +346,11 @@
 			);
 			name = "Unified Drive Assistant";
 			packageProductDependencies = (
+				3AA55CA83043CC6D00BEE359 /* GoogleSignIn */,
+				3AA55CAA3043CC6D00BEE359 /* GoogleSignInSwift */,
 			);
 			productName = "Unified Drive Assistant";
-			productReference = 3AC958233042DE90003EC941 /* Unified Drive Assistant.app */;
+			productReference = 3AA375BA3042FECA003D12F8 /* Unified Drive Assistant.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,8 +377,11 @@
 			);
 			mainGroup = 3AC9581A3042DE90003EC941;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3AA55CA73043CC6D00BEE359 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3AC958243042DE90003EC941 /* Products */;
+			productRefGroup = 3AC9581A3042DE90003EC941;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -109,6 +395,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA55E3230441A9A00BEE359 /* .env.example in Resources */,
+				3AA55E3330441A9A00BEE359 /* abb_faults.json in Resources */,
+				3AA55E3430441A9A00BEE359 /* package.json in Resources */,
+				3AA55E3530441A9A00BEE359 /* siemens_s120_faults.json in Resources */,
+				3AA55E3630441A9A00BEE359 /* danfoss_faults.json in Resources */,
+				3AA55E3730441A9A00BEE359 /* schneider_faults.json in Resources */,
+				3AA55E3830441A9A00BEE359 /* .gitignore in Resources */,
+				3AA55E3930441A9A00BEE359 /* Assets.xcassets in Resources */,
+				3AA55E3A30441A9A00BEE359 /* InfoPlist-AdditionsNeeded.md in Resources */,
+				3AA55E3B30441A9A00BEE359 /* README.md in Resources */,
+				3AA55E3C30441A9A00BEE359 /* fault-guidance.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +416,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AA55E3D30441A9A00BEE359 /* AuthManager.swift in Sources */,
+				3AA55E3E30441A9A00BEE359 /* FaultDataStore.swift in Sources */,
+				3AA55E3F30441A9A00BEE359 /* ContentView.swift in Sources */,
+				3AA55E4030441A9A00BEE359 /* LocationPermission.swift in Sources */,
+				3AA55E4130441A9A00BEE359 /* VibrationAnalysisView.swift in Sources */,
+				3AA55E4230441A9A00BEE359 /* ReviewView.swift in Sources */,
+				3AA55E4330441A9A00BEE359 /* SaveSiteVisitView.swift in Sources */,
+				3AA55E4430441A9A00BEE359 /* VSDSizingView.swift in Sources */,
+				3ABE2C4D30540CDF00A4C955 /* HomeView.swift in Sources */,
+				3AA55E4530441A9A00BEE359 /* SiteGeofenceManager.swift in Sources */,
+				3AA55E4630441A9A00BEE359 /* VibrationEngine.swift in Sources */,
+				3AA55E4730441A9A00BEE359 /* NearbyVisitsBanner.swift in Sources */,
+				3AA55E4830441A9A00BEE359 /* LoginView.swift in Sources */,
+				3AA55E4930441A9A00BEE359 /* FaultListView.swift in Sources */,
+				3AA55E4A30441A9A00BEE359 /* ReviewComposer.swift in Sources */,
+				3AA55E4B30441A9A00BEE359 /* LinearSpeedTracker.swift in Sources */,
+				3AA55E4C30441A9A00BEE359 /* KeychainHelper.swift in Sources */,
+				3AA55E4D30441A9A00BEE359 /* UnifiedDriveAssistantApp.swift in Sources */,
+				3AA55E4E30441A9A00BEE359 /* SpeedMeasurementView.swift in Sources */,
+				3AA55E4F30441A9A00BEE359 /* NameplateScanner.swift in Sources */,
+				3AA55E5030441A9A00BEE359 /* CameraPreviewView.swift in Sources */,
+				3AA55E5130441A9A00BEE359 /* FaultCode.swift in Sources */,
+				3AA55E5230441A9A00BEE359 /* SiteHistoryView.swift in Sources */,
+				3AA55E5330441A9A00BEE359 /* SettingsView.swift in Sources */,
+				3AA55E5430441A9A00BEE359 /* AnalyticsService.swift in Sources */,
+				3AA55E5630441A9A00BEE359 /* ToolsMenuView.swift in Sources */,
+				3AA55E5730441A9A00BEE359 /* Theme.swift in Sources */,
+				3AA55E5830441A9A00BEE359 /* FaultDetailView.swift in Sources */,
+				3AA55E5930441A9A00BEE359 /* BrandTabView.swift in Sources */,
+				3AA55E5A30441A9A00BEE359 /* AIAssistantService.swift in Sources */,
+				3AA55E5B30441A9A00BEE359 /* CameraPermission.swift in Sources */,
+				3AA55E5C30441A9A00BEE359 /* VSDSizingEngine.swift in Sources */,
+				3AA55E5D30441A9A00BEE359 /* SiteVisitStore.swift in Sources */,
+				3AA55E5E30441A9A00BEE359 /* OpticalTachometer.swift in Sources */,
+				3AA55E5F30441A9A00BEE359 /* AIAssistantView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +588,13 @@
 				DEVELOPMENT_TEAM = 7VY8B97F4U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Unified-Drive-Assistant-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Unified Drive Assistant";
+				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan motor nameplates and measure rotational/linear speed of equipment on site.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to tag saved fault lookups with a site location, and to check whether you've logged faults near your current spot before";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Used as a fallback if the camera isn't available when scanning a nameplate";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -266,7 +605,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Unified-Drive-Assistant";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unified-Drive-Assistant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -284,6 +623,13 @@
 				DEVELOPMENT_TEAM = 7VY8B97F4U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Unified-Drive-Assistant-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Unified Drive Assistant";
+				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan motor nameplates and measure rotational/linear speed of equipment on site.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to tag saved fault lookups with a site location, and to check whether you've logged faults near your current spot before";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Used as a fallback if the camera isn't available when scanning a nameplate";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,7 +640,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.Unified-Drive-Assistant";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unified-Drive-Assistant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,6 +670,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3AA55CA73043CC6D00BEE359 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3AA55CA83043CC6D00BEE359 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AA55CA73043CC6D00BEE359 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		3AA55CAA3043CC6D00BEE359 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3AA55CA73043CC6D00BEE359 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3AC9581B3042DE90003EC941 /* Project object */;
 }

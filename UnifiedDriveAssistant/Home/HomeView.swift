@@ -160,8 +160,8 @@ struct HomeView: View {
     }
 
     private var disclaimerText: some View {
-        Text("Fault code data is compiled from publicly available manufacturer documentation and technical manuals. Siemens, Schneider Electric, ABB, and Danfoss are trademarks of their respective owners. Unified Drive Assistant is an independent tool developed by Silcore Engineering and is not affiliated with, sponsored by, or endorsed by these companies.")
-            .font(.system(size: 10, weight: .regular))
+        Text("Disclaimer: Fault code data is compiled from publicly available manufacturer documentation and technical manuals. Siemens, Schneider Electric, ABB, and Danfoss are trademarks of their respective owners. Unified Drive Assistant is an independent tool developed by Silcore Engineering and is not affiliated with, sponsored by, or endorsed by these companies.© 2026 Silcore Engineering. All rights reserved.")
+            .font(.system(size: 9, weight: .regular))
             .foregroundColor(UDATheme.textSecondary.opacity(0.7))
             .multilineTextAlignment(.center)
             .fixedSize(horizontal: false, vertical: true)
