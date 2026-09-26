@@ -16,6 +16,8 @@ import SwiftUI
 struct FaultDetailView: View {
     let fault: FaultCode
     @State private var showSaveSiteVisit = false
+    @State private var showExpert = false
+    @StateObject private var pro = ProStore.shared
     // Guards against onAppear firing more than once for the same push — a
     // known SwiftUI quirk with navigationDestination(for:)-driven pushes,
     // independent of the earlier duplicate-declaration bug. Ensures the
@@ -64,6 +66,29 @@ struct FaultDetailView: View {
 
                 AIAssistantView(fault: fault)
 
+                // Pro: hand this exact fault to a human engineer. Non-Pro
+                // users see the upgrade screen first (ExpertAccessView).
+                Button {
+                    showExpert = true
+                } label: {
+                    HStack {
+                        Label("Ask a human expert", systemImage: "person.fill.questionmark")
+                        Spacer()
+                        if !pro.isPro {
+                            Text("PRO")
+                                .font(UDATheme.tagline)
+                                .foregroundColor(UDATheme.bgBlack)
+                                .padding(.horizontal, 6)
+                                .padding(.vertical, 2)
+                                .background(UDATheme.logoMagenta)
+                                .cornerRadius(UDATheme.chamferSmall)
+                        }
+                    }
+                }
+                .foregroundColor(UDATheme.textPrimary)
+                .font(UDATheme.bodyBold)
+                .udaCard()
+
                 // Restored — proven NOT to be the cause of the navigation
                 // bug via direct testing (removing it entirely didn't fix it).
                 Button {
@@ -86,6 +111,9 @@ struct FaultDetailView: View {
         }
         .sheet(isPresented: $showSaveSiteVisit) {
             SaveSiteVisitView(vendor: fault.brand, faultCode: fault.code, faultTitle: fault.title)
+        }
+        .sheet(isPresented: $showExpert) {
+            ExpertAccessView(fault: fault)
         }
     }
 }

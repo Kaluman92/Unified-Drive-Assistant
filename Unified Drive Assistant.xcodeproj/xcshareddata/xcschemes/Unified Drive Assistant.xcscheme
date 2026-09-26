@@ -50,6 +50,9 @@
             ReferencedContainer = "container:Unified Drive Assistant.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <StoreKitConfigurationFileReference
+         identifier = "../../UnifiedDriveAssistant.storekit">
+      </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

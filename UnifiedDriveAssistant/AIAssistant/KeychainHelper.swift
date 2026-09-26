@@ -17,9 +17,13 @@ import Foundation
 import Security
 
 enum KeychainHelper {
-    private static let service = "com.silcore.unifieddriveassistant.aikeys"
+    static let defaultService = "com.silcore.unifieddriveassistant.aikeys"
 
-    static func set(_ value: String, forKey key: String) {
+    /// Separate service for sign-in session data (Auth/AuthManager.swift),
+    /// so it never mixes with the AI keys above.
+    static let authService = "com.silcore.unifieddriveassistant.auth"
+
+    static func set(_ value: String, forKey key: String, service: String = defaultService) {
         guard let data = value.data(using: .utf8) else { return }
 
         let query: [String: Any] = [
@@ -34,7 +38,7 @@ enum KeychainHelper {
         SecItemAdd(attributes as CFDictionary, nil)
     }
 
-    static func get(forKey key: String) -> String? {
+    static func get(forKey key: String, service: String = defaultService) -> String? {
         let query: [String: Any] = [
             kSecClass as String: kSecClassGenericPassword,
             kSecAttrService as String: service,
@@ -48,7 +52,7 @@ enum KeychainHelper {
         return String(data: data, encoding: .utf8)
     }
 
-    static func delete(forKey key: String) {
+    static func delete(forKey key: String, service: String = defaultService) {
         let query: [String: Any] = [
             kSecClass as String: kSecClassGenericPassword,
             kSecAttrService as String: service,

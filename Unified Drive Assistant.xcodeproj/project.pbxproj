@@ -9,17 +9,11 @@
 /* Begin PBXBuildFile section */
 		3AA55CA93043CC6D00BEE359 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3AA55CA83043CC6D00BEE359 /* GoogleSignIn */; };
 		3AA55CAB3043CC6D00BEE359 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3AA55CAA3043CC6D00BEE359 /* GoogleSignInSwift */; };
-		3AA55E3230441A9A00BEE359 /* .env.example in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DF430441A9A00BEE359 /* .env.example */; };
 		3AA55E3330441A9A00BEE359 /* abb_faults.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55E0930441A9A00BEE359 /* abb_faults.json */; };
-		3AA55E3430441A9A00BEE359 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DF630441A9A00BEE359 /* package.json */; };
 		3AA55E3530441A9A00BEE359 /* siemens_s120_faults.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55E0C30441A9A00BEE359 /* siemens_s120_faults.json */; };
 		3AA55E3630441A9A00BEE359 /* danfoss_faults.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55E0A30441A9A00BEE359 /* danfoss_faults.json */; };
 		3AA55E3730441A9A00BEE359 /* schneider_faults.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55E0B30441A9A00BEE359 /* schneider_faults.json */; };
-		3AA55E3830441A9A00BEE359 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DF530441A9A00BEE359 /* .gitignore */; };
 		3AA55E3930441A9A00BEE359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DFF30441A9A00BEE359 /* Assets.xcassets */; };
-		3AA55E3A30441A9A00BEE359 /* InfoPlist-AdditionsNeeded.md in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55E0130441A9A00BEE359 /* InfoPlist-AdditionsNeeded.md */; };
-		3AA55E3B30441A9A00BEE359 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DF730441A9A00BEE359 /* README.md */; };
-		3AA55E3C30441A9A00BEE359 /* fault-guidance.js in Resources */ = {isa = PBXBuildFile; fileRef = 3AA55DF230441A9A00BEE359 /* fault-guidance.js */; };
 		3AA55E3D30441A9A00BEE359 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E0430441A9A00BEE359 /* AuthManager.swift */; };
 		3AA55E3E30441A9A00BEE359 /* FaultDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E0F30441A9A00BEE359 /* FaultDataStore.swift */; };
 		3AA55E3F30441A9A00BEE359 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E0030441A9A00BEE359 /* ContentView.swift */; };
@@ -55,6 +49,11 @@
 		3AA55E5E30441A9A00BEE359 /* OpticalTachometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55E2530441A9A00BEE359 /* OpticalTachometer.swift */; };
 		3AA55E5F30441A9A00BEE359 /* AIAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA55DFA30441A9A00BEE359 /* AIAssistantView.swift */; };
 		3ABE2C4D30540CDF00A4C955 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE2C4C30540CDF00A4C955 /* HomeView.swift */; };
+		5DA1B82CAD9E6D3AD1728A88 /* BiometricLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA10895B2058BA3402BEE9D /* BiometricLock.swift */; };
+		5DA153149288E0307BFE2D83 /* ProStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA104B17FF06745B82C6018 /* ProStore.swift */; };
+		5DA11606E00F2374D8792C94 /* ProPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA1EFE58A6A55E1F56BF42F /* ProPaywallView.swift */; };
+		5DA1743796EBB1EFDA052A1F /* ExpertRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA115B223F80309DDA6995B /* ExpertRequestView.swift */; };
+		5DA1D499650B4FA336346B8B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5DA15C14F4AAC393F6331034 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +104,13 @@
 		3AA55E2D30441A9A00BEE359 /* VSDSizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSDSizingView.swift; sourceTree = "<group>"; };
 		3AA55E2F30441A9A00BEE359 /* ToolsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsMenuView.swift; sourceTree = "<group>"; };
 		3ABE2C4C30540CDF00A4C955 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5DA10895B2058BA3402BEE9D /* BiometricLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricLock.swift; sourceTree = "<group>"; };
+		5DA104B17FF06745B82C6018 /* ProStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProStore.swift; sourceTree = "<group>"; };
+		5DA1EFE58A6A55E1F56BF42F /* ProPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProPaywallView.swift; sourceTree = "<group>"; };
+		5DA115B223F80309DDA6995B /* ExpertRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertRequestView.swift; sourceTree = "<group>"; };
+		5DA1460DE4AF0A64D3C0290E /* Unified Drive Assistant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Unified Drive Assistant.entitlements"; sourceTree = "<group>"; };
+		5DA116735307BA5323079D71 /* UnifiedDriveAssistant.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = UnifiedDriveAssistant.storekit; sourceTree = "<group>"; };
+		5DA15C14F4AAC393F6331034 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -169,6 +175,7 @@
 		3AA55E0330441A9A00BEE359 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				5DA15C14F4AAC393F6331034 /* PrivacyInfo.xcprivacy */,
 				3AA55DFF30441A9A00BEE359 /* Assets.xcassets */,
 				3AA55E0030441A9A00BEE359 /* ContentView.swift */,
 				3AA55E0130441A9A00BEE359 /* InfoPlist-AdditionsNeeded.md */,
@@ -182,8 +189,19 @@
 			children = (
 				3AA55E0430441A9A00BEE359 /* AuthManager.swift */,
 				3AA55E0530441A9A00BEE359 /* LoginView.swift */,
+				5DA10895B2058BA3402BEE9D /* BiometricLock.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		5DA14A1DD79F2B70D42B6D43 /* Pro */ = {
+			isa = PBXGroup;
+			children = (
+				5DA104B17FF06745B82C6018 /* ProStore.swift */,
+				5DA1EFE58A6A55E1F56BF42F /* ProPaywallView.swift */,
+				5DA115B223F80309DDA6995B /* ExpertRequestView.swift */,
+			);
+			path = Pro;
 			sourceTree = "<group>";
 		};
 		3AA55E0830441A9A00BEE359 /* Cosmetics */ = {
@@ -308,6 +326,7 @@
 				3AA55E1730441A9A00BEE359 /* Feedback */,
 				3AA55E1930441A9A00BEE359 /* Home */,
 				3AA55E2030441A9A00BEE359 /* Location */,
+				5DA14A1DD79F2B70D42B6D43 /* Pro */,
 				3AA55E2930441A9A00BEE359 /* Sensors */,
 				3AA55E2B30441A9A00BEE359 /* Settings */,
 				3AA55E2E30441A9A00BEE359 /* Sizing */,
@@ -323,6 +342,8 @@
 				3AA375BA3042FECA003D12F8 /* Unified Drive Assistant.app */,
 				3AA55DF830441A9A00BEE359 /* Backend */,
 				3AA55E3130441A9A00BEE359 /* UnifiedDriveAssistant */,
+				5DA1460DE4AF0A64D3C0290E /* Unified Drive Assistant.entitlements */,
+				5DA116735307BA5323079D71 /* UnifiedDriveAssistant.storekit */,
 			);
 			sourceTree = "<group>";
 		};
@@ -395,17 +416,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AA55E3230441A9A00BEE359 /* .env.example in Resources */,
 				3AA55E3330441A9A00BEE359 /* abb_faults.json in Resources */,
-				3AA55E3430441A9A00BEE359 /* package.json in Resources */,
 				3AA55E3530441A9A00BEE359 /* siemens_s120_faults.json in Resources */,
 				3AA55E3630441A9A00BEE359 /* danfoss_faults.json in Resources */,
 				3AA55E3730441A9A00BEE359 /* schneider_faults.json in Resources */,
-				3AA55E3830441A9A00BEE359 /* .gitignore in Resources */,
 				3AA55E3930441A9A00BEE359 /* Assets.xcassets in Resources */,
-				3AA55E3A30441A9A00BEE359 /* InfoPlist-AdditionsNeeded.md in Resources */,
-				3AA55E3B30441A9A00BEE359 /* README.md in Resources */,
-				3AA55E3C30441A9A00BEE359 /* fault-guidance.js in Resources */,
+				5DA1D499650B4FA336346B8B /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +433,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AA55E3D30441A9A00BEE359 /* AuthManager.swift in Sources */,
+				5DA1B82CAD9E6D3AD1728A88 /* BiometricLock.swift in Sources */,
+				5DA153149288E0307BFE2D83 /* ProStore.swift in Sources */,
+				5DA11606E00F2374D8792C94 /* ProPaywallView.swift in Sources */,
+				5DA1743796EBB1EFDA052A1F /* ExpertRequestView.swift in Sources */,
 				3AA55E3E30441A9A00BEE359 /* FaultDataStore.swift in Sources */,
 				3AA55E3F30441A9A00BEE359 /* ContentView.swift in Sources */,
 				3AA55E4030441A9A00BEE359 /* LocationPermission.swift in Sources */,
@@ -462,6 +482,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -526,6 +547,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -583,6 +605,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Unified Drive Assistant.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7VY8B97F4U;
@@ -592,7 +616,9 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Unified Drive Assistant";
 				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Used to unlock Unified Drive Assistant with Face ID when you turn on the app lock in Settings.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan motor nameplates and measure rotational/linear speed of equipment on site.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Unified Drive Assistant uses your location to log site visits and alert you when you return to a location with a previously recorded fault, even when the app is in the background";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to tag saved fault lookups with a site location, and to check whether you've logged faults near your current spot before";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Used as a fallback if the camera isn't available when scanning a nameplate";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -618,6 +644,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Unified Drive Assistant.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7VY8B97F4U;
@@ -627,7 +655,9 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Unified Drive Assistant";
 				INFOPLIST_KEY_GCSupportsControllerUserInteraction = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Used to unlock Unified Drive Assistant with Face ID when you turn on the app lock in Settings.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Used to scan motor nameplates and measure rotational/linear speed of equipment on site.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Unified Drive Assistant uses your location to log site visits and alert you when you return to a location with a previously recorded fault, even when the app is in the background";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to tag saved fault lookups with a site location, and to check whether you've logged faults near your current spot before";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Used as a fallback if the camera isn't available when scanning a nameplate";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

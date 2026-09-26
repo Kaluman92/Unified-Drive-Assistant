@@ -36,18 +36,30 @@ enum ReviewComposer {
     }
 }
 
+struct MailAttachment {
+    let data: Data
+    let mimeType: String
+    let fileName: String
+}
+
 /// SwiftUI wrapper around MFMailComposeViewController.
+/// Also used by Pro/ExpertRequestView.swift, with its own recipient + photos.
 struct MailComposeView: UIViewControllerRepresentable {
+    var recipient: String = ReviewComposer.feedbackRecipient
     let subject: String
     let body: String
+    var attachments: [MailAttachment] = []
     let onFinish: (MFMailComposeResult) -> Void
 
     func makeUIViewController(context: Context) -> MFMailComposeViewController {
         let vc = MFMailComposeViewController()
         vc.mailComposeDelegate = context.coordinator
-        vc.setToRecipients([ReviewComposer.feedbackRecipient])
+        vc.setToRecipients([recipient])
         vc.setSubject(subject)
         vc.setMessageBody(body, isHTML: false)
+        for attachment in attachments {
+            vc.addAttachmentData(attachment.data, mimeType: attachment.mimeType, fileName: attachment.fileName)
+        }
         return vc
     }
 

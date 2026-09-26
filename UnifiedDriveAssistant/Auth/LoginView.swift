@@ -3,19 +3,21 @@
 //  Unified Drive Assistant
 //
 //  ============================================================
-//  AUTH BLOCK — UI (local stand-in — see AuthManager.swift header)
+//  AUTH BLOCK — UI (optional sign-in sheet)
 //  ------------------------------------------------------------
-//  Simple email/password form while real Apple/Google sign-in is
-//  parked for later. No external setup needed to build and run.
+//  Sign in with Apple or Google (see AuthManager.swift for the
+//  setup each one still needs). Shown as a sheet from Settings →
+//  Account and from the expert form — never required to use the
+//  app. Closes itself once sign-in succeeds.
 //  ============================================================
 
 import SwiftUI
+import AuthenticationServices
 
 struct LoginView: View {
     @StateObject private var auth = AuthManager.shared
-    @State private var email = ""
-    @State private var password = ""
-    @State private var isSignUpMode = false
+    @Environment(\.colorScheme) private var colorScheme
+    @Environment(\.dismiss) private var dismiss
 
     var body: some View {
         ZStack {
@@ -36,57 +38,62 @@ struct LoginView: View {
                 }
 
                 VStack(spacing: UDATheme.spacingM) {
-                    TextField("Email", text: $email)
-                        .textInputAutocapitalization(.never)
-                        .autocorrectionDisabled()
-                        .keyboardType(.emailAddress)
-                        .padding(UDATheme.spacingM)
-                        .background(UDATheme.surface)
-                        .cornerRadius(UDATheme.chamferMedium)
+                    Text("Sign in (optional)")
+                        .font(UDATheme.headline)
+                        .foregroundColor(UDATheme.textPrimary)
 
-                    SecureField("Password (6+ characters)", text: $password)
-                        .padding(UDATheme.spacingM)
-                        .background(UDATheme.surface)
-                        .cornerRadius(UDATheme.chamferMedium)
+                    SignInWithAppleButton(.signIn) { request in
+                        auth.prepareAppleRequest(request)
+                    } onCompletion: { result in
+                        auth.handleAppleCompletion(result)
+                    }
+                    .signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
+                    .frame(height: 48)
+                    .cornerRadius(UDATheme.chamferMedium)
+                    // Rebuild on theme change so the button style follows it.
+                    .id(colorScheme)
+
+                    // Hidden until the real Google OAuth client ID is in
+                    // Info.plist — App Review rejects visibly broken buttons.
+                    if auth.isGoogleConfigured {
+                        Button {
+                            Task { await auth.signInWithGoogle() }
+                        } label: {
+                            HStack(spacing: UDATheme.spacingS) {
+                                if auth.isBusy {
+                                    ProgressView()
+                                } else {
+                                    GoogleMark()
+                                    Text("Sign in with Google")
+                                        .font(.system(size: 17, weight: .medium))
+                                }
+                            }
+                            .foregroundColor(Color(hex: "1F1F1F"))
+                            .frame(maxWidth: .infinity, minHeight: 48)
+                            .background(Color.white)
+                            .overlay(
+                                RoundedRectangle(cornerRadius: UDATheme.chamferMedium)
+                                    .stroke(Color(hex: "747775"), lineWidth: UDATheme.hairline)
+                            )
+                            .cornerRadius(UDATheme.chamferMedium)
+                        }
+                        .disabled(auth.isBusy)
+                    }
 
                     if let errorMessage = auth.authErrorMessage {
                         Text(errorMessage)
                             .font(UDATheme.caption)
                             .foregroundColor(UDATheme.danger)
+                            .multilineTextAlignment(.center)
                             .transition(.opacity.combined(with: .move(edge: .top)))
                     }
 
-                    Button {
-                        Task {
-                            if isSignUpMode {
-                                await auth.signUp(email: email, password: password)
-                            } else {
-                                await auth.signIn(email: email, password: password)
-                            }
-                        }
-                    } label: {
-                        if auth.isBusy {
-                            ProgressView().tint(UDATheme.bgBlack)
-                        } else {
-                            Text(isSignUpMode ? "Create Account" : "Sign In")
-                        }
-                    }
-                    .udaPrimaryButton()
-                    .disabled(auth.isBusy || email.isEmpty || password.count < 6)
-
-                    Button {
-                        withAnimation(.easeInOut(duration: 0.2)) {
-                            isSignUpMode.toggle()
-                            auth.authErrorMessage = nil
-                        }
-                    } label: {
-                        Text(isSignUpMode ? "Already have an account? Log in" : "New here? Create an account")
-                            .font(UDATheme.caption)
-                            .foregroundColor(UDATheme.textSecondary)
-                    }
+                    Text("Everything in the app works without an account. Signing in links your expert requests to you, so our engineers know who they're helping. We only use your name and email for that.")
+                        .font(UDATheme.caption)
+                        .foregroundColor(UDATheme.textSecondary)
+                        .multilineTextAlignment(.center)
                 }
                 .animation(.easeInOut(duration: 0.2), value: auth.authErrorMessage)
-                .animation(.easeInOut(duration: 0.2), value: isSignUpMode)
                 .padding(UDATheme.spacingL)
                 .background(UDATheme.surfaceElevated)
                 .cornerRadius(UDATheme.chamferLarge)
@@ -96,9 +103,33 @@ struct LoginView: View {
                 Spacer()
             }
         }
+        .onChange(of: auth.isSignedIn) { _, signedIn in
+            if signedIn { dismiss() }
+        }
+        .toolbar {
+            ToolbarItem(placement: .cancellationAction) {
+                Button("Not now") { dismiss() }
+            }
+        }
+    }
+}
+
+/// Simple "G" badge so the Google button reads correctly without bundling
+/// Google's logo asset. Swap for the official asset from Google's
+/// branding guidelines before App Store submission if you prefer.
+private struct GoogleMark: View {
+    var body: some View {
+        Text("G")
+            .font(.system(size: 18, weight: .bold, design: .rounded))
+            .foregroundStyle(
+                AngularGradient(
+                    colors: [Color(hex: "4285F4"), Color(hex: "34A853"), Color(hex: "FBBC05"), Color(hex: "EA4335"), Color(hex: "4285F4")],
+                    center: .center
+                )
+            )
     }
 }
 
 #Preview {
-    LoginView()
+    NavigationStack { LoginView() }
 }
