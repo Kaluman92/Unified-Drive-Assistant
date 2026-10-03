@@ -209,7 +209,10 @@ struct SettingsView: View {
                     Button {
                         showSignIn = true
                     } label: {
-                        Label("Sign in with Apple or Google", systemImage: "person.crop.circle")
+                        // Only mention Google once its OAuth client ID is set up —
+                        // until then LoginView offers Apple alone.
+                        Label(auth.isGoogleConfigured ? "Sign in with Apple or Google" : "Sign in with Apple",
+                              systemImage: "person.crop.circle")
                     }
                     .foregroundColor(UDATheme.accentPressed)
                     Text("Optional — everything works without an account. Signing in links your expert requests to you.")
